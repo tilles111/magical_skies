@@ -127,3 +127,4 @@ kubejs/modpackData/**
 /.LSOverride
 config/xaeroworldmap.txt
 config/xaerominimap_entities.json
+instance.json
