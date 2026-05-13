@@ -10,7 +10,7 @@
             "name": "Configs",
             "path": "../config"
         },{
-            "name": "Configs Default",
+            "name": "Default Configs",
             "path": "../defaultconfigs"
         },{
             "name": "Quests",
