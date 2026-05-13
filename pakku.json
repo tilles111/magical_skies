@@ -1,14 +1,13 @@
 {
-    "name": "Splendid Ranching",
+    "name": "Placeholder",
     "version": "DEV",
-    "description": "Slime rancher inspired modpack for the JEO Modpack Jam",
+    "description": "Placeholder",
     "author": "Deepacat, Meeprdib",
     "overrides": [
         "config",
         "defaultconfigs",
         "configureddefaults",
         "kubejs",
-        "ldlib",
         "!kubejs/probe/",
         "!kubejs/modpackData/**",
         "kubejs/modpackData/*.txt",
@@ -21,38 +20,8 @@
         "minecraft_server.jar",
         "server.properties",
         "server_starter.conf",
-        "server-icon.png",
-        "start_server.bat",
-        "README.md"
     ],
     "projects": {
-        "legendary-tooltips": {
-            "side": "CLIENT"
-        },
-        "zume": {
-            "side": "CLIENT"
-        },
-        "oculus": {
-            "side": "CLIENT"
-        },
-        "watermedia": {
-            "side": "CLIENT"
-        },
-        "embeddium": {
-            "side": "CLIENT"
-        },
-        "embeddiumplus": {
-            "side": "CLIENT"
-        },
-        "citresewn": {
-            "side": "CLIENT"
-        },
-        "lootbeams": {
-            "side": "CLIENT"
-        },
-        "worldedit": {
-            "export": false
-        },
         "probejs": {
             "side": "CLIENT",
             "export": false
