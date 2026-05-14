@@ -397,6 +397,14 @@
     "curseForgeHash": 1215298089,
     "modrinthHash": "b144b8599acd3fac3f8f9d31fa217a4a5b942f61"
   },
+  "FastLeafDecay-32.jar": {
+    "jarName": "FastLeafDecay-32.jar",
+    "modId": "fastleafdecay",
+    "name": "Fast Leaf Decay",
+    "version": "32",
+    "curseForgeHash": 2287332168,
+    "modrinthHash": "4a76af4ca71dd9939d3c21206792c0d5f75b93a7"
+  },
   "FastSuite-1.20.1-5.1.2.jar": {
     "jarName": "FastSuite-1.20.1-5.1.2.jar",
     "modId": "fastsuite",
@@ -460,6 +468,14 @@
     "version": "2001.2.12",
     "curseForgeHash": 3807919150,
     "modrinthHash": "7f36ec4af42ad1d69872c58022e93a9d1b9c82b7"
+  },
+  "ftb-quests-forge-2001.4.22.jar": {
+    "jarName": "ftb-quests-forge-2001.4.22.jar",
+    "modId": "ftbquests",
+    "name": "FTB Quests",
+    "version": "2001.4.22",
+    "curseForgeHash": 1456505092,
+    "modrinthHash": "70f3bd771ab3b5921ce1ff5f14166fab694ca1aa"
   },
   "ftb-teams-forge-2001.3.2.jar": {
     "jarName": "ftb-teams-forge-2001.3.2.jar",
@@ -801,6 +817,14 @@
     "version": "1.0.0",
     "curseForgeHash": 1062903518,
     "modrinthHash": "214e96498ac1c840e3eee553fc69ba721e4f9a64"
+  },
+  "solcarrot-1.20.1-1.15.1.jar": {
+    "jarName": "solcarrot-1.20.1-1.15.1.jar",
+    "modId": "solcarrot",
+    "name": "Spice of Life: Carrot Edition",
+    "version": "1.15.1",
+    "curseForgeHash": 3477473770,
+    "modrinthHash": "f7fa1fd0c633b10f98d7f0f97766b95aac1a2dc0"
   },
   "sophisticatedbackpacks-1.20.1-3.24.39.1743.jar": {
     "jarName": "sophisticatedbackpacks-1.20.1-3.24.39.1743.jar",
