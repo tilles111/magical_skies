@@ -133,6 +133,14 @@
     "curseForgeHash": 1304687526,
     "modrinthHash": "1e74111aba8fe812adf7f2292bd51a391e32dc6d"
   },
+  "balm-forge-1.20.1-7.3.38-all.jar": {
+    "jarName": "balm-forge-1.20.1-7.3.38-all.jar",
+    "modId": "balm",
+    "name": "Balm",
+    "version": "7.3.38",
+    "curseForgeHash": 3717034118,
+    "modrinthHash": "515905f87268f1eb5af2a9878a84914517efe552"
+  },
   "biomancy-neoforge-1.20.1-2.9.8.1-alpha.0.jar": {
     "jarName": "biomancy-neoforge-1.20.1-2.9.8.1-alpha.0.jar",
     "modId": "biomancy",
@@ -301,6 +309,14 @@
     "curseForgeHash": 3918164268,
     "modrinthHash": "43b3e0766a9e7a30651cc01756476657b865b7a2"
   },
+  "eccentrictome-1.20.1-1.10.4.jar": {
+    "jarName": "eccentrictome-1.20.1-1.10.4.jar",
+    "modId": "eccentrictome",
+    "name": "Eccentric Tome",
+    "version": "1.20.1-1.10.4",
+    "curseForgeHash": 1765323921,
+    "modrinthHash": "3a2b7285e080bde8bc3f378c5c36414a8a217529"
+  },
   "ecologics-forge-1.20.1-2.2.4.jar": {
     "jarName": "ecologics-forge-1.20.1-2.2.4.jar",
     "modId": "ecologics",
@@ -420,6 +436,14 @@
     "version": "1.20.1-2.2.6",
     "curseForgeHash": 820985474,
     "modrinthHash": "eefcb28a80c6a8e42d452b2caf232a49a40f7b3c"
+  },
+  "forgivingvoid-forge-1.20.1-10.0.3.jar": {
+    "jarName": "forgivingvoid-forge-1.20.1-10.0.3.jar",
+    "modId": "forgivingvoid",
+    "name": "Forgiving Void",
+    "version": "10.0.3",
+    "curseForgeHash": 2930732831,
+    "modrinthHash": "f5a37657eabf996da59b1caa07e8c9611ea90eeb"
   },
   "ftb-chunks-forge-2001.3.7.jar": {
     "jarName": "ftb-chunks-forge-2001.3.7.jar",
