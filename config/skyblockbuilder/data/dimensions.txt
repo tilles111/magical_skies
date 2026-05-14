@@ -1,0 +1,4 @@
+minecraft:overworld
+bloodmagic:dungeon
+minecraft:the_end
+minecraft:the_nether

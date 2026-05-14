@@ -1,0 +1,232 @@
+
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+	[types.stone_type]
+
+		[types.stone_type.ars_nouveau]
+			sourcestone = true
+
+		[types.stone_type.quark]
+			soul_sandstone = true
+			limestone = true
+			jasper = true
+			shale = true
+			myalite = true
+			permafrost = true
+
+		[types.stone_type.architects_palette]
+			abyssaline = true
+			hadaline = true
+			myonite = true
+			esoterrack = true
+			onyx = true
+			wardstone = true
+			moonshale = true
+			nebulite = true
+
+		[types.stone_type.twigs]
+			schist = true
+			rhyolite = true
+			bloodstone = true
+
+		[types.stone_type.botania]
+			livingrock = true
+
+		[types.stone_type.wizards_reborn]
+			wisestone = true
+
+		[types.stone_type.forbidden_arcanus]
+			darkstone = true
+
+		[types.stone_type.aetherworks]
+			suevite = true
+
+	[types.wood_type]
+
+		[types.wood_type.ars_nouveau]
+			archwood = true
+
+		[types.wood_type.ecologics]
+			flowering_azalea = true
+			azalea = true
+			coconut = true
+			walnut = true
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.architects_palette]
+			twisted = true
+
+		[types.wood_type.botania]
+			livingwood = true
+			dreamwood = true
+
+		[types.wood_type.naturesaura]
+			ancient = true
+
+		[types.wood_type.caupona]
+			walnut = true
+
+		[types.wood_type.hexalia]
+			cottonwood = true
+			willow = true
+
+		[types.wood_type.eidolon]
+			illwood = true
+
+		[types.wood_type.wizards_reborn]
+			arcane_wood = true
+			innocent_wood = true
+
+		[types.wood_type.forbidden_arcanus]
+			fungyss = true
+			aurum = true
+			edelwood = true
+
+		[types.wood_type.malum]
+			runewood = true
+			soulwood = true
+
+		[types.wood_type.autumnity]
+			maple = true
+
+	[types.leaves_type]
+
+		[types.leaves_type.ecologics]
+			coconut = true
+			walnut = true
+
+		[types.leaves_type.architects_palette]
+			twisted = true
+
+		[types.leaves_type.naturesaura]
+			ancient = true
+			golden = true
+
+		[types.leaves_type.caupona]
+			fig = true
+			wolfberry = true
+			walnut = true
+
+		[types.leaves_type.ars_nouveau]
+			blue_archwood = true
+			red_archwood = true
+			purple_archwood = true
+			green_archwood = true
+
+		[types.leaves_type.hexalia]
+			cottonwood = true
+			willow = true
+
+		[types.leaves_type.eidolon]
+			illwood = true
+
+		[types.leaves_type.wizards_reborn]
+			arcane_wood = true
+			innocent_wood = true
+
+		[types.leaves_type.animus]
+			blood = true
+
+		[types.leaves_type.forbidden_arcanus]
+			aurum = true
+			nuggety_aurum = true
+
+		[types.leaves_type.malum]
+			runewood = true
+			azure_runewood = true
+			soulwood = true
+			budding_soulwood = true
+
+		[types.leaves_type.autumnity]
+			maple = true
+			yellow_maple = true
+			orange_maple = true
+			red_maple = true
+
+		[types.leaves_type.ars_elemental]
+			yellow_archwood = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+		[types.leaves_type.occultism]
+			otherworld = true
+
+#Disables specific entries
+[entries]
+
+	[entries.stone_type]
+
+		[entries.stone_type.quark]
+			pillar = true
+			polished_vertical_slab = true
+			vertical_slab = true
+
+		[entries.stone_type.decorative_blocks]
+			pillar = true
+
+		[entries.stone_type.twigs]
+			column = true
+
+	[entries.mud_type]
+
+		[entries.mud_type.quark]
+			carved_bricks = true
+			pillar = true
+			brick_lattice = true
+
+	[entries.wood_type]
+
+		[entries.wood_type.architects_palette]
+			board_stairs = true
+			railing = true
+			board_slab = true
+			boards = true
+			board_wall = true
+
+		[entries.wood_type.decorative_blocks]
+			beam = true
+			support = true
+			seat = true
+			palisade = true
+
+		[entries.wood_type.farmersdelight]
+			cabinet = true
+
+		[entries.wood_type.quark]
+			hollow_log = true
+			vertical_planks = true
+			post = true
+			trapped_chest = true
+			bookshelf = true
+			chest = true
+			stripped_post = true
+			ladder = true
+			vertical_slab = true
+
+		[entries.wood_type.hearth_and_home]
+			lattice = true
+			parquet = true
+			vertical_trim = true
+			trim = true
+			sanded_wood = true
+
+		[entries.wood_type.twigs]
+			table = true
+
+	[entries.leaves_type]
+
+		[entries.leaves_type.quark]
+			hedge = true
+			leaf_carpet = true
+

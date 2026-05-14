@@ -1,0 +1,95 @@
+{
+  "configVersion": {
+    "//": [
+      "Welcome to ProbeJS Legacy config file",
+      "Use '/probejs refresh_config' to refresh your config after changing config values"
+    ],
+    "$default": 4,
+    "$value": 4
+  },
+  "enabled": {
+    "//": [
+      "enable or disable ProbeJS Legacy",
+      "note that `require()` function in script are always available"
+    ],
+    "$default": true,
+    "$value": true
+  },
+  "modHash": {
+    "//": "internal config, used for tracking mod update and modlist change",
+    "$default": -1,
+    "$value": -1
+  },
+  "registryHash": {
+    "//": "internal config, used for tracking registry change",
+    "$default": -1,
+    "$value": -1
+  },
+  "isolatedScopes": {
+    "//": [
+      "isolate scripts from different script file with certain exposure,",
+      "used for making scripts actual running situation more in line with your coding"
+    ],
+    "$default": true,
+    "$value": true
+  },
+  "complete": {
+    "//": [
+      "attach all registry names of each registry type to related JS types, for better code completion",
+      "disabling this can help with performance of your code editor",
+      "snippets for registry names are always available, regardless of this option"
+    ],
+    "$default": true,
+    "$value": true
+  },
+  "publicClassOnly": {
+    "//": "prevent classes that are not public and not referenced from being scanned",
+    "$default": false,
+    "$value": false
+  },
+  "Mods with forced Full Scanning": {
+    "//": "mods described here will have ALL their classes scanned",
+    "$default": [
+      "minecraft"
+    ],
+    "$value": [
+      "minecraft"
+    ]
+  },
+  "dumpCustomRecipeGenerator": {
+    "//": [
+      "KubeJS will generate custom recipe creation method in recipe event, these methods only accept one Json as its arg",
+      "enabling this will allow ProbeJS to dump syntax these JsonSerializer-based recipe creating functions"
+    ],
+    "$default": false,
+    "$value": false
+  },
+  "Registry Object Filter": {
+    "//": [
+      "a string regex used for filtering registry objects.",
+      "Registry objects whose id matches this pattern will always be dumped by ProbeJS Legacy"
+    ],
+    "$default": "^minecraft:.+$",
+    "$value": "^minecraft:.+$"
+  },
+  "Rename Parameter Automatically": {
+    "//": "automatically rename `arg123`-like names into some more human readable names",
+    "$default": true,
+    "$value": true
+  },
+  "Field As Beaning": {
+    "//": "Convert field to getter/setter if possible, this might help beaning generation be more accurate",
+    "$default": true,
+    "$value": true
+  },
+  "Class Scanner": {
+    "//": [
+      "can be one of these:",
+      "NONE -> no class scanner",
+      "EVENTS (default) -> scan all forge event subclasses",
+      "FULL -> scan all classes recorded by ForgeModLoader"
+    ],
+    "$default": "EVENTS",
+    "$value": "EVENTS"
+  }
+}
