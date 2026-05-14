@@ -114,11 +114,14 @@
 				item: "hexalia:mortar_and_pestle"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 4.0d
+			x: 7.0d
+			y: 2.0d
 		}
 		{
-			dependencies: ["26EAB0BEB155C113"]
+			dependencies: [
+				"26EAB0BEB155C113"
+				"17B4C33E38AAEA21"
+			]
 			id: "006D953F384C89B7"
 			tasks: [{
 				id: "255F2A2985BEFD4D"
@@ -131,53 +134,29 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.0d
+			x: 8.0d
+			y: 4.0d
 		}
 		{
-			id: "743CCB92B29AC4D0"
-			tasks: [{
-				id: "14EEFD6D380B7C11"
-				item: "minecraft:book"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 5.0d
-		}
-		{
-			id: "521272449570F94C"
-			tasks: [{
-				id: "12767CE483844ED3"
-				item: "minecraft:crafting_table"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["006D953F384C89B7"]
 			id: "24237383C63A2C37"
 			tasks: [{
 				id: "6BB300A921BEB82A"
 				item: "forbidden_arcanus:arcane_crystal"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 8.0d
+			x: 10.0d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"24237383C63A2C37"
-				"6ED5186A48B0B075"
-			]
+			dependencies: ["6ED5186A48B0B075"]
 			id: "289B93EBFA0F9D88"
 			tasks: [{
 				id: "5E2CEF262E625B75"
 				item: "forbidden_arcanus:arcane_bone_meal"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.0d
+			x: 8.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["006D953F384C89B7"]
@@ -187,8 +166,8 @@
 				item: "wizards_reborn:arcanum"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.0d
+			x: 9.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["24237383C63A2C37"]
@@ -198,8 +177,8 @@
 				item: "forbidden_arcanus:arcane_crystal_dust"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 9.0d
+			x: 9.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["6ED5186A48B0B075"]
@@ -209,8 +188,28 @@
 				item: "wizards_reborn:arcanum_dust"
 				type: "item"
 			}]
+			x: 10.0d
+			y: 7.0d
+		}
+		{
+			id: "64589C4DA70A4BFE"
+			tasks: [{
+				id: "44EE39409385C5DA"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
 			x: 3.0d
-			y: 9.0d
+			y: 2.0d
+		}
+		{
+			id: "0EAC76001595F351"
+			tasks: [{
+				id: "1BBF023E9375E7BF"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 	title: "early stuff"
