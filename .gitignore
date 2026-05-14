@@ -134,3 +134,4 @@ config/xaerominimap_entities.json
 instance.json
 .mixin.out/class/net/minecraft/client/particle/ParticleEngine.class
 .mixin.out/class/net/minecraft/client/particle/SingleQuadParticle.class
+config/skyblockbuilder/data/dimensions.txt
