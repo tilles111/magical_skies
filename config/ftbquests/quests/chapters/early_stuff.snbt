@@ -1,0 +1,217 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "early_stuff"
+	group: "21EE2F42804F4B00"
+	id: "406CE2F2070F21C2"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "69E07C4A3AA05B31"
+			tasks: [{
+				id: "0E54DD6E64FAA9AC"
+				item: "caupona:walnut_sapling"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "1486264BC271E477"
+			tasks: [{
+				id: "76C2EADF667718C3"
+				item: "minecraft:grass_block"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			id: "76D93BB222B2B743"
+			tasks: [{
+				id: "0406C0C6A9E4F2C0"
+				item: "quark:blue_blossom_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "1742E034381006BF"
+			tasks: [{
+				id: "002219A48A1F1E73"
+				item: "botania:infused_grass"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "54F7ECDBA8A3FAF2"
+			tasks: [{
+				id: "24FE2F6F7A82046A"
+				item: "botania:mutated_grass"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "65F2859B263C6DC4"
+			tasks: [{
+				id: "4CF903F2EA5D45C5"
+				item: "architects_palette:twisted_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "01C75A7238FC71A0"
+			tasks: [{
+				id: "6348AC145B5FEB20"
+				item: "twigs:twig"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			id: "135D5D65812D1964"
+			tasks: [{
+				id: "6EBF3DEDBEB4483F"
+				item: "twigs:pebble"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "03CEEF1ECB6A8394"
+			tasks: [{
+				id: "391665DF0A630E1D"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			id: "3B416F52BE673AE9"
+			tasks: [{
+				id: "0F628E7CD9CE3C02"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "26EAB0BEB155C113"
+			tasks: [{
+				id: "17356AEBF4D62279"
+				item: "hexalia:mortar_and_pestle"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["26EAB0BEB155C113"]
+			id: "006D953F384C89B7"
+			tasks: [{
+				id: "255F2A2985BEFD4D"
+				item: {
+					Count: 1
+					id: "bloodmagic:arcaneashes"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "743CCB92B29AC4D0"
+			tasks: [{
+				id: "14EEFD6D380B7C11"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			id: "521272449570F94C"
+			tasks: [{
+				id: "12767CE483844ED3"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["006D953F384C89B7"]
+			id: "24237383C63A2C37"
+			tasks: [{
+				id: "6BB300A921BEB82A"
+				item: "forbidden_arcanus:arcane_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"24237383C63A2C37"
+				"6ED5186A48B0B075"
+			]
+			id: "289B93EBFA0F9D88"
+			tasks: [{
+				id: "5E2CEF262E625B75"
+				item: "forbidden_arcanus:arcane_bone_meal"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["006D953F384C89B7"]
+			id: "6ED5186A48B0B075"
+			tasks: [{
+				id: "66E0340848FC62DB"
+				item: "wizards_reborn:arcanum"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["24237383C63A2C37"]
+			id: "17B4C33E38AAEA21"
+			tasks: [{
+				id: "5573402CDF0C2DBA"
+				item: "forbidden_arcanus:arcane_crystal_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6ED5186A48B0B075"]
+			id: "5D6E5C43E6E9C453"
+			tasks: [{
+				id: "1384702B611BE6B2"
+				item: "wizards_reborn:arcanum_dust"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 9.0d
+		}
+	]
+	title: "early stuff"
+}
