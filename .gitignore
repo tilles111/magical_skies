@@ -131,3 +131,4 @@ config/xaeroworldmap.txt
 config/xaerominimap_entities.json
 .probe/*
 !.probe/probe-settings.json
+instance.json
