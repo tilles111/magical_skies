@@ -13,8 +13,8 @@
             "name": "Default Configs",
             "path": "../defaultconfigs"
         },{
-            "name": "Quests",
-            "path": "../config/ftbquests/quests"
+            "name": "Questlog",
+            "path": "../config/questlog"
         }
     ],
     "settings": {}

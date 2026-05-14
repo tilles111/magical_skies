@@ -650,13 +650,13 @@
     "curseForgeHash": 3174429337,
     "modrinthHash": "e85f53de2e582a79ce25ff1df1e7b5b5fc08440f"
   },
-  "ProbeJSLegacy-1.20.1-6.0.5.jar": {
-    "jarName": "ProbeJSLegacy-1.20.1-6.0.5.jar",
-    "modId": "probejs_legacy",
-    "name": "ProbeJSLegacy",
-    "version": "6.0.3",
-    "curseForgeHash": 2959199928,
-    "modrinthHash": "3dca218c269fad52dec8caf104abf0961006583c"
+  "probejs-6.0.1-forge.jar": {
+    "jarName": "probejs-6.0.1-forge.jar",
+    "modId": "probejs",
+    "name": "ProbeJS",
+    "version": "6.0.1",
+    "curseForgeHash": 1763477494,
+    "modrinthHash": "5380211b1c2891f454a136545721526b184d8513"
   },
   "Quark-4.0-462.jar": {
     "jarName": "Quark-4.0-462.jar",
