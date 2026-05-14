@@ -4003,6 +4003,43 @@
             ]
         },
         {
+            "pakku_id": "8pY7N4ZuJbyfqwDL",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "spice-of-life-carrot-edition"
+            },
+            "name": {
+                "curseforge": "Spice of Life: Carrot Edition"
+            },
+            "id": {
+                "curseforge": "277616"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "solcarrot-1.20.1-1.15.1.jar",
+                    "mc_versions": [
+                        "1.20.2",
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/4888/575/solcarrot-1.20.1-1.15.1.jar",
+                    "id": "4888575",
+                    "parent_id": "277616",
+                    "hashes": {
+                        "sha1": "f7fa1fd0c633b10f98d7f0f97766b95aac1a2dc0",
+                        "md5": "3b143c8d252b51221b5e85724c00171c"
+                    },
+                    "required_dependencies": [],
+                    "size": 104185,
+                    "date_published": "2023-11-21T22:21:12.127Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "GuQAk2N6aqakWPdd",
             "type": "MOD",
             "slug": {
