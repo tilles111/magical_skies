@@ -32,6 +32,8 @@
 /servers.dat_old
 /hs_err*
 /data/
+/disabledmods/
+/jarmods/
 
 # Pakku
 /build/
