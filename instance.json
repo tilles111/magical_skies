@@ -14442,192 +14442,6 @@
         }
       },
       {
-        "name": "ProbeJS Legacy",
-        "version": "1.20.1-6.0.5",
-        "optional": true,
-        "file": "ProbeJSLegacy-1.20.1-6.0.5.jar",
-        "type": "mods",
-        "description": "Unofficial continuation of ProbeJS for versions abandoned by official ProbeJS",
-        "disabled": false,
-        "userAdded": true,
-        "wasSelected": true,
-        "skipped": false,
-        "curseForgeProjectId": 956446,
-        "curseForgeFileId": 8087580,
-        "curseForgeProject": {
-          "id": 956446,
-          "name": "ProbeJS Legacy",
-          "authors": [
-            {
-              "id": 103795047,
-              "name": "ZZZank",
-              "url": "https://www.curseforge.com/members/zzzank"
-            }
-          ],
-          "gameId": 432,
-          "summary": "Unofficial continuation of ProbeJS for versions abandoned by official ProbeJS",
-          "categories": [
-            {
-              "name": "Map and Information",
-              "slug": "map-information",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
-              "dateModified": "2014-05-08T17:42:23.74Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 423,
-              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "Utility & QoL",
-              "slug": "utility-qol",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/utility-qol",
-              "dateModified": "2021-11-17T11:45:09.143Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 5191,
-              "iconUrl": "https://media.forgecdn.net/avatars/456/558/637727379086405233.png",
-              "parentCategoryId": 6,
-              "classId": 6
-            },
-            {
-              "name": "KubeJS",
-              "slug": "kubejs",
-              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
-              "dateModified": "2022-04-24T06:59:45.66Z",
-              "gameId": 432,
-              "isClass": false,
-              "id": 5314,
-              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
-              "parentCategoryId": 426,
-              "classId": 6
-            }
-          ],
-          "status": 4,
-          "primaryCategoryId": 5314,
-          "classId": 6,
-          "slug": "probejs-legacy",
-          "isFeatured": false,
-          "dateModified": "2026-05-14T13:17:33.1Z",
-          "dateCreated": "2024-01-01T10:58:13.673Z",
-          "dateReleased": "2026-05-14T13:14:04.357Z",
-          "links": {
-            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/probejs-legacy",
-            "wikiUrl": "",
-            "issuesUrl": "https://github.com/ZZZank/ProbeJS-Legacy/issues",
-            "sourceUrl": "https://github.com/ZZZank/ProbeJS-Legacy"
-          },
-          "logo": {
-            "id": 926607,
-            "description": "",
-            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/926/607/256/256/638396372928168010_animated.gif",
-            "title": "638396372928168010.gif",
-            "url": "https://media.forgecdn.net/avatars/926/607/638396372928168010.gif",
-            "modId": 956446
-          },
-          "allowModDistribution": true,
-          "screenshots": [],
-          "mainFileId": 8087583
-        },
-        "curseForgeFile": {
-          "id": 8087580,
-          "gameId": 432,
-          "isAvailable": true,
-          "displayName": "1.20.1-6.0.5",
-          "fileName": "ProbeJSLegacy-1.20.1-6.0.5.jar",
-          "releaseType": 1,
-          "fileStatus": 4,
-          "fileDate": "2026-05-14T13:13:22.603Z",
-          "fileLength": 560860,
-          "dependencies": [
-            {
-              "fileId": 0,
-              "modId": 238086,
-              "relationType": 3
-            },
-            {
-              "fileId": 0,
-              "modId": 1003287,
-              "relationType": 2
-            }
-          ],
-          "alternateFileId": 0,
-          "modules": [
-            {
-              "fingerprint": 3206187639,
-              "name": "META-INF"
-            },
-            {
-              "fingerprint": 2273443347,
-              "name": "ProbeJSLegacy"
-            },
-            {
-              "fingerprint": 1704945147,
-              "name": "assets"
-            },
-            {
-              "fingerprint": 3814724283,
-              "name": "icon.png"
-            },
-            {
-              "fingerprint": 549969749,
-              "name": "kubejs.plugins.txt"
-            },
-            {
-              "fingerprint": 3929514961,
-              "name": "pack.mcmeta"
-            },
-            {
-              "fingerprint": 1121855865,
-              "name": "probejs_legacy.mixins.json"
-            },
-            {
-              "fingerprint": 4183052323,
-              "name": "zzzank"
-            }
-          ],
-          "isServerPack": false,
-          "hashes": [
-            {
-              "value": "3dca218c269fad52dec8caf104abf0961006583c",
-              "algo": 1
-            },
-            {
-              "value": "1df51c6256c520fbef0e42bfc36b9b64",
-              "algo": 2
-            }
-          ],
-          "sortableGameVersions": [
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
-              "gameVersionName": "Client"
-            },
-            {
-              "gameVersionPadded": "0000000001.0000000020.0000000001",
-              "gameVersion": "1.20.1",
-              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
-              "gameVersionName": "1.20.1"
-            },
-            {
-              "gameVersionPadded": "0",
-              "gameVersion": "",
-              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
-              "gameVersionName": "Forge"
-            }
-          ],
-          "gameVersions": [
-            "Client",
-            "1.20.1",
-            "Forge"
-          ],
-          "fileFingerprint": 2959199928,
-          "modId": 956446
-        }
-      },
-      {
         "name": "Every Compat (Wood Good)",
         "version": "everycomp-1.20-2.9.20-forge",
         "optional": true,
@@ -30548,13 +30362,205 @@
             "forge"
           ]
         }
+      },
+      {
+        "name": "ProbeJS",
+        "version": "probejs-6.0.1-forge.jar",
+        "optional": true,
+        "file": "probejs-6.0.1-forge.jar",
+        "type": "mods",
+        "description": "Greatly enhances your KubeJS scripting experience by adding VSCode support.",
+        "disabled": false,
+        "userAdded": true,
+        "wasSelected": true,
+        "skipped": false,
+        "curseForgeProjectId": 585406,
+        "curseForgeFileId": 5227399,
+        "curseForgeProject": {
+          "id": 585406,
+          "name": "ProbeJS",
+          "authors": [
+            {
+              "id": 60032861,
+              "name": "Amygdaloideae",
+              "url": "https://www.curseforge.com/members/amygdaloideae"
+            }
+          ],
+          "gameId": 432,
+          "summary": "Greatly enhances your KubeJS scripting experience by adding VSCode support.",
+          "categories": [
+            {
+              "name": "Map and Information",
+              "slug": "map-information",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/map-information",
+              "dateModified": "2014-05-08T17:42:23.74Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 423,
+              "iconUrl": "https://media.forgecdn.net/avatars/6/38/635351497437388438.png",
+              "parentCategoryId": 6,
+              "classId": 6
+            },
+            {
+              "name": "KubeJS",
+              "slug": "kubejs",
+              "url": "https://www.curseforge.com/minecraft/mc-mods/mc-addons/kubejs",
+              "dateModified": "2022-04-24T06:59:45.66Z",
+              "gameId": 432,
+              "isClass": false,
+              "id": 5314,
+              "iconUrl": "https://media.forgecdn.net/avatars/538/559/637863803856518049.png",
+              "parentCategoryId": 426,
+              "classId": 6
+            }
+          ],
+          "status": 4,
+          "primaryCategoryId": 5314,
+          "classId": 6,
+          "slug": "probejs",
+          "isFeatured": false,
+          "dateModified": "2026-05-11T15:34:21.363Z",
+          "dateCreated": "2022-03-02T09:06:59.253Z",
+          "dateReleased": "2026-05-11T15:29:08.86Z",
+          "links": {
+            "websiteUrl": "https://www.curseforge.com/minecraft/mc-mods/probejs",
+            "wikiUrl": "https://github.com/Prunoideae/ProbeJS/wiki",
+            "issuesUrl": "https://github.com/Prunoideae/ProbeJS/issues",
+            "sourceUrl": "https://github.com/Prunoideae/ProbeJS"
+          },
+          "logo": {
+            "id": 627854,
+            "description": "",
+            "thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/627/854/256/256/638023501582537889_animated.gif",
+            "title": "638023501582537889.gif",
+            "url": "https://media.forgecdn.net/avatars/627/854/638023501582537889.gif",
+            "modId": 585406
+          },
+          "allowModDistribution": true,
+          "screenshots": [],
+          "mainFileId": 8073983
+        },
+        "curseForgeFile": {
+          "id": 5227399,
+          "gameId": 432,
+          "isAvailable": true,
+          "displayName": "probejs-6.0.1-forge.jar",
+          "fileName": "probejs-6.0.1-forge.jar",
+          "releaseType": 1,
+          "fileStatus": 4,
+          "fileDate": "2024-04-01T14:08:56.003Z",
+          "fileLength": 2365466,
+          "dependencies": [
+            {
+              "fileId": 0,
+              "modId": 238086,
+              "relationType": 3
+            }
+          ],
+          "alternateFileId": 0,
+          "modules": [
+            {
+              "fingerprint": 3315332885,
+              "name": "META-INF"
+            },
+            {
+              "fingerprint": 1657689132,
+              "name": "probejs.common.mixins.json"
+            },
+            {
+              "fingerprint": 503467362,
+              "name": "probe.doc-schema.json"
+            },
+            {
+              "fingerprint": 1366078290,
+              "name": "kubejs.plugins.txt"
+            },
+            {
+              "fingerprint": 723277237,
+              "name": "icon.png"
+            },
+            {
+              "fingerprint": 1434930287,
+              "name": "docs"
+            },
+            {
+              "fingerprint": 1272758554,
+              "name": "assets"
+            },
+            {
+              "fingerprint": 4035773886,
+              "name": "probejs-common-refmap.json"
+            },
+            {
+              "fingerprint": 1932659716,
+              "name": "probejs.mixins.json"
+            },
+            {
+              "fingerprint": 1206793511,
+              "name": "pack.mcmeta"
+            },
+            {
+              "fingerprint": 4104149943,
+              "name": "com"
+            },
+            {
+              "fingerprint": 143375251,
+              "name": "architectury_inject_ProbeJS_common_fe9ca035bc664a11b6d734d2ae4efb34_bfb0d284bb5e827c5f9049e6e9a9ae1f151af73e18b5c866970e7d0f9e3c1fcaprobejs601devjar"
+            }
+          ],
+          "isServerPack": false,
+          "hashes": [
+            {
+              "value": "5380211b1c2891f454a136545721526b184d8513",
+              "algo": 1
+            },
+            {
+              "value": "69dfe15b710b9b213feb7eb788ed83a9",
+              "algo": 2
+            }
+          ],
+          "sortableGameVersions": [
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-12-08T00:00:00Z",
+              "gameVersionName": "Client"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2023-07-25T00:00:00Z",
+              "gameVersionName": "NeoForge"
+            },
+            {
+              "gameVersionPadded": "0000000001.0000000020.0000000001",
+              "gameVersion": "1.20.1",
+              "gameVersionReleaseDate": "2023-06-12T14:26:38.477Z",
+              "gameVersionName": "1.20.1"
+            },
+            {
+              "gameVersionPadded": "0",
+              "gameVersion": "",
+              "gameVersionReleaseDate": "2022-10-01T00:00:00Z",
+              "gameVersionName": "Forge"
+            }
+          ],
+          "gameVersions": [
+            "Client",
+            "NeoForge",
+            "1.20.1",
+            "Forge"
+          ],
+          "fileFingerprint": 1763477494,
+          "modId": 585406
+        }
       }
     ],
     "ignoredUpdates": [],
     "ignoreAllUpdates": false,
     "vanillaInstance": true,
-    "lastPlayed": 1778781777838,
-    "numPlays": 3
+    "lastPlayed": 1778782403695,
+    "numPlays": 4
   },
   "id": "1.20.1",
   "complianceLevel": 1,

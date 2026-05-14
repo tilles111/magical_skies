@@ -3158,40 +3158,43 @@
             ]
         },
         {
-            "pakku_id": "F6MBrehAbsNqTBw2",
+            "pakku_id": "ReGVcJcXNFodmEBX",
             "type": "MOD",
+            "side": "CLIENT",
             "slug": {
-                "curseforge": "probejs-legacy"
+                "curseforge": "probejs"
             },
             "name": {
-                "curseforge": "ProbeJS Legacy"
+                "curseforge": "ProbeJS"
             },
             "id": {
-                "curseforge": "956446"
+                "curseforge": "585406"
             },
+            "export": false,
             "files": [
                 {
                     "type": "curseforge",
-                    "file_name": "ProbeJSLegacy-1.20.1-6.0.5.jar",
+                    "file_name": "probejs-6.0.1-forge.jar",
                     "mc_versions": [
                         "1.20.1"
                     ],
                     "loaders": [
+                        "neoforge",
                         "forge"
                     ],
                     "release_type": "release",
-                    "url": "https://edge.forgecdn.net/files/8087/580/ProbeJSLegacy-1.20.1-6.0.5.jar",
-                    "id": "8087580",
-                    "parent_id": "956446",
+                    "url": "https://edge.forgecdn.net/files/5227/399/probejs-6.0.1-forge.jar",
+                    "id": "5227399",
+                    "parent_id": "585406",
                     "hashes": {
-                        "sha1": "3dca218c269fad52dec8caf104abf0961006583c",
-                        "md5": "1df51c6256c520fbef0e42bfc36b9b64"
+                        "sha1": "5380211b1c2891f454a136545721526b184d8513",
+                        "md5": "69dfe15b710b9b213feb7eb788ed83a9"
                     },
                     "required_dependencies": [
                         "238086"
                     ],
-                    "size": 560860,
-                    "date_published": "2026-05-14T13:13:22.603Z"
+                    "size": 2365466,
+                    "date_published": "2024-04-01T14:08:56.003Z"
                 }
             ]
         },

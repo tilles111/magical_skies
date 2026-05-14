@@ -882,6 +882,14 @@
     "curseForgeHash": 3209381811,
     "modrinthHash": "203c0f173e3e7c2862437e3bae4ec00979f99df9"
   },
+  "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar": {
+    "jarName": "YeetusExperimentus-Forge-2.3.1-build.6+mc1.20.1.jar",
+    "modId": "yeetusexperimentus",
+    "name": "Yeetus Experimentus",
+    "version": "2.3.1-build.6+mc1.20.1",
+    "curseForgeHash": 1963019301,
+    "modrinthHash": "6efdaf5d213f779e51aa84631a5f06a306351e75"
+  },
   "Zeta-1.0-31.jar": {
     "jarName": "Zeta-1.0-31.jar",
     "modId": "zeta",
