@@ -1,6 +1,6 @@
 {
-    "name": "Placeholder",
-    "version": "DEV",
+    "name": "Magical Skies",
+    "version": "0.0.1",
     "description": "Placeholder",
     "author": "Tilles, Frog",
     "overrides": [
@@ -11,7 +11,8 @@
         "!kubejs/probe/",
         "!kubejs/modpackData/**",
         "kubejs/modpackData/*.txt",
-        "!resourcepacks"
+        "!resourcepacks",
+        "config"
     ],
     "server_overrides": [
         "!kubejs/assets",
@@ -19,7 +20,7 @@
         "generate_auto_installation_file.bat",
         "minecraft_server.jar",
         "server.properties",
-        "server_starter.conf",
+        "server_starter.conf"
     ],
     "projects": {
         "probejs": {
