@@ -172,9 +172,6 @@
 			polished_vertical_slab = true
 			vertical_slab = true
 
-		[entries.stone_type.decorative_blocks]
-			pillar = true
-
 		[entries.stone_type.twigs]
 			column = true
 
