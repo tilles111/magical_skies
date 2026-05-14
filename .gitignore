@@ -132,3 +132,5 @@ config/xaerominimap_entities.json
 .probe/*
 !.probe/probe-settings.json
 instance.json
+.mixin.out/class/net/minecraft/client/particle/ParticleEngine.class
+.mixin.out/class/net/minecraft/client/particle/SingleQuadParticle.class

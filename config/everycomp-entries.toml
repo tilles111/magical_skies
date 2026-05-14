@@ -175,6 +175,9 @@
 		[entries.stone_type.twigs]
 			column = true
 
+		[entries.stone_type.decorative_blocks]
+			pillar = true
+
 	[entries.mud_type]
 
 		[entries.mud_type.quark]
