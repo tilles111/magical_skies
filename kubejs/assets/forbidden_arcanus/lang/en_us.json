@@ -1,0 +1,13 @@
+{
+    "item.forbidden_arcanus.arcane_crystal": "Volatile Arcanum",
+    "item.forbidden_arcanus.arcane_crystal_dust": "Volatile Arcanum Dust",
+    "item.forbidden_arcanus.arcane_crystal_dust_speck": "Volatile Arcanum Dust Speck",
+    "item.forbidden_arcanus.corrupted_arcane_crystal": "Corrupted Arcanum Crystal",
+
+    "block.forbidden_arcanus.arcane_crystal_ore": "Volatile Arcanum Ore",
+    "block.forbidden_arcanus.deepslate_arcane_crystal_ore": "Deepslate Volatile Arcanum Ore",
+    "block.forbidden_arcanus.arcane_crystal_block": "Volatile Arcanum Block",
+    "block.forbidden_arcanus.corrupted_arcane_crystal_block": "Corrupted Arcanum Block",
+    "block.forbidden_arcanus.arcane_crystal_obelisk": "Volatile Arcanum Obelisk",
+    "block.forbidden_arcanus.corrupted_arcane_crystal_obelisk": "Corrupted Arcanum Obelisk"
+}
