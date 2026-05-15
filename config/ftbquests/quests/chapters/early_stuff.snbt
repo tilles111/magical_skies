@@ -109,6 +109,7 @@
 		}
 		{
 			id: "26EAB0BEB155C113"
+			shape: "gear"
 			tasks: [{
 				id: "17356AEBF4D62279"
 				item: "hexalia:mortar_and_pestle"
@@ -210,6 +211,26 @@
 			}]
 			x: 1.0d
 			y: 3.0d
+		}
+		{
+			id: "3640118E4234B919"
+			tasks: [{
+				id: "5FAC44CA51BB0D93"
+				item: "supplementaries:statue"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			id: "2FC1A58F077E355B"
+			tasks: [{
+				id: "0058B12273E40E5F"
+				item: "wizards_reborn:lime_arcane_lumos"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
 		}
 	]
 	title: "early stuff"

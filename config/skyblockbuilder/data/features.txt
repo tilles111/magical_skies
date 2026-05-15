@@ -18,6 +18,7 @@ ars_nouveau:natural_flourishing_tree
 ars_nouveau:natural_vexing_tree
 ars_nouveau:patch_berry
 ars_nouveau:vexing_tree
+artifacts:campsite
 autumnity:fallen_leaves
 autumnity:fallen_leaves_maple_tree_orange
 autumnity:fallen_leaves_maple_tree_yellow

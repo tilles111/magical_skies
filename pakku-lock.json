@@ -3000,6 +3000,44 @@
             ]
         },
         {
+            "pakku_id": "iy3hysp6eDP6wOzH",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "lychee"
+            },
+            "name": {
+                "curseforge": "Lychee (Neo/Forge)"
+            },
+            "id": {
+                "curseforge": "567403"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "Lychee-1.20.1-Forge-5.2.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/8030/949/Lychee-1.20.1-Forge-5.2.1.jar",
+                    "id": "8030949",
+                    "parent_id": "567403",
+                    "hashes": {
+                        "sha1": "7843a1d6fcb1fd5cb10e2e4296bea595cc8ffe8a",
+                        "md5": "150d5c9ad2939e770b939aecdfe0c09a"
+                    },
+                    "required_dependencies": [],
+                    "size": 694814,
+                    "date_published": "2026-05-03T07:21:13.997Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "o1R5lVfBhJNeYh1a",
             "type": "MOD",
             "slug": {
