@@ -590,6 +590,46 @@
             ]
         },
         {
+            "pakku_id": "nRSU7948bCufCcZC",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "artifacts"
+            },
+            "name": {
+                "curseforge": "Artifacts"
+            },
+            "id": {
+                "curseforge": "312353"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "artifacts-forge-9.5.19.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7903/806/artifacts-forge-9.5.19.jar",
+                    "id": "7903806",
+                    "parent_id": "312353",
+                    "hashes": {
+                        "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
+                        "md5": "54a59ba2d659e97aaff43264dd63e9c3"
+                    },
+                    "required_dependencies": [
+                        "419699",
+                        "348521",
+                        "309927"
+                    ],
+                    "size": 850974,
+                    "date_published": "2026-04-10T09:21:47.417Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "LRpiZvmTkDzRJYeo",
             "type": "MOD",
             "slug": {
@@ -3578,6 +3618,45 @@
             ]
         },
         {
+            "pakku_id": "tfpnk6FTXGJU3Fg0",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "relics-mod"
+            },
+            "name": {
+                "curseforge": "Relics"
+            },
+            "id": {
+                "curseforge": "445274"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "relics-1.20.1-0.8.0.13.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7708/970/relics-1.20.1-0.8.0.13.jar",
+                    "id": "7708970",
+                    "parent_id": "445274",
+                    "hashes": {
+                        "sha1": "940358d190780a9a59a69dd7e75a5e7cf07e4209",
+                        "md5": "8e8a8beb1ac0776448dfbcec179734a1"
+                    },
+                    "required_dependencies": [
+                        "309927",
+                        "916747"
+                    ],
+                    "size": 1521089,
+                    "date_published": "2026-03-04T07:15:19.393Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "2RF24nK74PtWyzOq",
             "type": "MOD",
             "slug": {
@@ -3611,6 +3690,48 @@
                     "required_dependencies": [],
                     "size": 2231992,
                     "date_published": "2026-05-07T19:02:16.693Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "baeqavkmVmT7jntB",
+            "pakku_links": [
+                "tfpnk6FTXGJU3Fg0"
+            ],
+            "type": "MOD",
+            "slug": {
+                "curseforge": "reliquified-artifacts"
+            },
+            "name": {
+                "curseforge": "Reliquified Artifacts"
+            },
+            "id": {
+                "curseforge": "1100379"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "rarcompat-1.20.1-0.5.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/7106/942/rarcompat-1.20.1-0.5.jar",
+                    "id": "7106942",
+                    "parent_id": "1100379",
+                    "hashes": {
+                        "sha1": "a6d83f41f0bff392fec5db7e392d57d8b0c818e0",
+                        "md5": "6d7958b048c0f25afc179c769868990f"
+                    },
+                    "required_dependencies": [
+                        "312353",
+                        "445274"
+                    ],
+                    "size": 409926,
+                    "date_published": "2025-10-14T17:09:48.060Z"
                 }
             ]
         },
@@ -3758,6 +3879,42 @@
                     "required_dependencies": [],
                     "size": 1508496,
                     "date_published": "2024-11-22T21:48:02.250Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "dEVZ6VCjGaLmEsSb",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "byte"
+            },
+            "name": {
+                "curseforge": "ShatterLib | OctoLib"
+            },
+            "id": {
+                "curseforge": "916747"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/6274/623/OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+                    "id": "6274623",
+                    "parent_id": "916747",
+                    "hashes": {
+                        "sha1": "9eab28baff36942e1c924489e34753df10f40208",
+                        "md5": "6b2fd012966b13a96ce4f68ae42eab8c"
+                    },
+                    "required_dependencies": [],
+                    "size": 424035,
+                    "date_published": "2025-03-07T11:54:51.647Z"
                 }
             ]
         },
