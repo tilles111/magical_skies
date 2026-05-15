@@ -25,6 +25,14 @@
       "east": [],
       "west": [],
       "north": []
+    },
+    "exported_at_2026-05-14T21:21:14-0700": {
+      "north": [],
+      "east": [
+        [ 7, 18, 12 ]
+      ],
+      "south": [],
+      "west": []
     }
   },
   
@@ -55,6 +63,11 @@
       "spawns": "default",
       "surroundingBlocks": "default",
       "spreads": "default"
+    },
+    {
+      "name": "green_island",
+      "file": "green_island.snbt",
+      "spawns": "exported_at_2026-05-14T21:21:14-0700"
     }
   ]
 }
