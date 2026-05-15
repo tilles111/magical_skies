@@ -129,6 +129,43 @@
             ]
         },
         {
+            "pakku_id": "bfyZm1gYIC0oNzal",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "almostunified"
+            },
+            "name": {
+                "curseforge": "Almost Unified"
+            },
+            "id": {
+                "curseforge": "633823"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "almostunified-forge-1.20.1-0.11.0.jar",
+                    "mc_versions": [
+                        "1.20.1"
+                    ],
+                    "loaders": [
+                        "forge",
+                        "neoforge"
+                    ],
+                    "release_type": "beta",
+                    "url": "https://edge.forgecdn.net/files/7430/993/almostunified-forge-1.20.1-0.11.0.jar",
+                    "id": "7430993",
+                    "parent_id": "633823",
+                    "hashes": {
+                        "sha1": "24943e5efe95c10367259a7bbd13874ca56ebf0a",
+                        "md5": "7676a1c11f933ecc50fd34e4c53a0388"
+                    },
+                    "required_dependencies": [],
+                    "size": 218740,
+                    "date_published": "2026-01-07T19:58:46.167Z"
+                }
+            ]
+        },
+        {
             "pakku_id": "zfHMeKeMvYdLwkOs",
             "type": "MOD",
             "slug": {
@@ -936,6 +973,43 @@
                     "required_dependencies": [],
                     "size": 2399518,
                     "date_published": "2025-10-16T02:42:02.237Z"
+                }
+            ]
+        },
+        {
+            "pakku_id": "8aN8WZN2dLtuj8ZB",
+            "type": "MOD",
+            "slug": {
+                "curseforge": "cherished-worlds"
+            },
+            "name": {
+                "curseforge": "Cherished Worlds"
+            },
+            "id": {
+                "curseforge": "308240"
+            },
+            "files": [
+                {
+                    "type": "curseforge",
+                    "file_name": "cherishedworlds-forge-6.1.7+1.20.1.jar",
+                    "mc_versions": [
+                        "1.20.1",
+                        "1.20"
+                    ],
+                    "loaders": [
+                        "forge"
+                    ],
+                    "release_type": "release",
+                    "url": "https://edge.forgecdn.net/files/5955/879/cherishedworlds-forge-6.1.7+1.20.1.jar",
+                    "id": "5955879",
+                    "parent_id": "308240",
+                    "hashes": {
+                        "sha1": "d3eb588c64691c9da83460e3b2e783401d337a34",
+                        "md5": "f05683884add93d912932c601dff8ef5"
+                    },
+                    "required_dependencies": [],
+                    "size": 60956,
+                    "date_published": "2024-12-02T08:22:35.773Z"
                 }
             ]
         },
