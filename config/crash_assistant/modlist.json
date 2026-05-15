@@ -125,6 +125,14 @@
     "curseForgeHash": 804174470,
     "modrinthHash": "b731e612ccdab3d246e2f97795c88ed0abe0b890"
   },
+  "artifacts-forge-9.5.19.jar": {
+    "jarName": "artifacts-forge-9.5.19.jar",
+    "modId": "artifacts",
+    "name": "Artifacts",
+    "version": "9.5.19",
+    "curseForgeHash": 530214686,
+    "modrinthHash": "91ab6fc2cc208550f7fc37c43e42eba81eff318e"
+  },
   "AttributeFix-Forge-1.20.1-21.0.5.jar": {
     "jarName": "AttributeFix-Forge-1.20.1-21.0.5.jar",
     "modId": "attributefix",
@@ -204,6 +212,14 @@
     "version": "1.20.1-0.4.14",
     "curseForgeHash": 1366412227,
     "modrinthHash": "18a7d7e0e1847a52dd71648de56b3f0bf54fca2f"
+  },
+  "cherishedworlds-forge-6.1.7+1.20.1.jar": {
+    "jarName": "cherishedworlds-forge-6.1.7+1.20.1.jar",
+    "modId": "cherishedworlds",
+    "name": "Cherished Worlds",
+    "version": "6.1.7+1.20.1",
+    "curseForgeHash": 2374033839,
+    "modrinthHash": "d3eb588c64691c9da83460e3b2e783401d337a34"
   },
   "chloride-FORGE-mc1.20.1-v1.7.7.jar": {
     "jarName": "chloride-FORGE-mc1.20.1-v1.7.7.jar",
@@ -602,6 +618,14 @@
     "curseForgeHash": 2035895651,
     "modrinthHash": "e6346060ae70cbf103b231d8a1536bcd044c84a8"
   },
+  "Lychee-1.20.1-Forge-5.2.1.jar": {
+    "jarName": "Lychee-1.20.1-Forge-5.2.1.jar",
+    "modId": "lychee",
+    "name": "Lychee Tweaker",
+    "version": "5.2.1+forge",
+    "curseForgeHash": 592634454,
+    "modrinthHash": "7843a1d6fcb1fd5cb10e2e4296bea595cc8ffe8a"
+  },
   "malum-1.20.1-1.6.7.jar": {
     "jarName": "malum-1.20.1-1.6.7.jar",
     "modId": "malum",
@@ -674,6 +698,14 @@
     "curseForgeHash": 3263865037,
     "modrinthHash": "b5e33b96b832a0ed3acfe4b8bab1a9f870ad6f00"
   },
+  "OctoLib-FORGE-0.5.0.1+1.20.1.jar": {
+    "jarName": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
+    "modId": "octolib",
+    "name": "OctoLib",
+    "version": "0.5.0.1",
+    "curseForgeHash": 2265070471,
+    "modrinthHash": "9eab28baff36942e1c924489e34753df10f40208"
+  },
   "particle_core-0.3.3+1.20.1+forge.jar": {
     "jarName": "particle_core-0.3.3+1.20.1+forge.jar",
     "modId": "particle_core",
@@ -737,6 +769,22 @@
     "version": "0.12.4+git.26c9d8e",
     "curseForgeHash": 1441086174,
     "modrinthHash": "f5f5f792473bb7b85ec221f75c5afb3740afb13a"
+  },
+  "rarcompat-1.20.1-0.5.jar": {
+    "jarName": "rarcompat-1.20.1-0.5.jar",
+    "modId": "rarcompat",
+    "name": "RAR-Compat",
+    "version": "0.5",
+    "curseForgeHash": 3336012854,
+    "modrinthHash": "a6d83f41f0bff392fec5db7e392d57d8b0c818e0"
+  },
+  "relics-1.20.1-0.8.0.13.jar": {
+    "jarName": "relics-1.20.1-0.8.0.13.jar",
+    "modId": "relics",
+    "name": "Relics",
+    "version": "0.8.0.13",
+    "curseForgeHash": 2688565275,
+    "modrinthHash": "940358d190780a9a59a69dd7e75a5e7cf07e4209"
   },
   "reliquary-1.20.1-2.0.57.1468.jar": {
     "jarName": "reliquary-1.20.1-2.0.57.1468.jar",

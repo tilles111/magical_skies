@@ -17836,7 +17836,7 @@
         {pos: [16, 12, 23], state: "minecraft:air"},
         {pos: [16, 12, 24], state: "minecraft:stone"},
         {pos: [16, 12, 25], state: "minecraft:stone"},
-        {pos: [16, 12, 26], state: "minecraft:stone_slab{type:bottom,waterlogged:false}"},
+        {pos: [16, 12, 26], state: "minecraft:bedrock"},
         {pos: [16, 12, 27], state: "minecraft:stone_stairs{facing:south,half:bottom,shape:straight,waterlogged:false}"},
         {pos: [16, 12, 28], state: "minecraft:stone"},
         {pos: [16, 12, 29], state: "minecraft:stone"},
@@ -54344,6 +54344,7 @@
         "minecraft:mossy_stone_brick_stairs{facing:east,half:bottom,shape:straight,waterlogged:false}",
         "minecraft:stone_brick_stairs{facing:east,half:bottom,shape:inner_right,waterlogged:false}",
         "wizards_reborn:lime_arcane_lumos",
+        "minecraft:bedrock",
         "supplementaries:statue{facing:west,lit:false,powered:false,waterlogged:false}"
     ]
 }
