@@ -1,4 +1,4 @@
 minecraft:overworld
-minecraft:the_end
 bloodmagic:dungeon
+minecraft:the_end
 minecraft:the_nether

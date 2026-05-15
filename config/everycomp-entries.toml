@@ -87,12 +87,12 @@
 			aurum = true
 			edelwood = true
 
+		[types.wood_type.autumnity]
+			maple = true
+
 		[types.wood_type.malum]
 			runewood = true
 			soulwood = true
-
-		[types.wood_type.autumnity]
-			maple = true
 
 	[types.leaves_type]
 
@@ -136,12 +136,6 @@
 			aurum = true
 			nuggety_aurum = true
 
-		[types.leaves_type.malum]
-			runewood = true
-			azure_runewood = true
-			soulwood = true
-			budding_soulwood = true
-
 		[types.leaves_type.autumnity]
 			maple = true
 			yellow_maple = true
@@ -161,6 +155,12 @@
 
 		[types.leaves_type.occultism]
 			otherworld = true
+
+		[types.leaves_type.malum]
+			runewood = true
+			azure_runewood = true
+			soulwood = true
+			budding_soulwood = true
 
 #Disables specific entries
 [entries]
