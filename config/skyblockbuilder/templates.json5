@@ -41,6 +41,22 @@
       ],
       "south": [],
       "west": []
+    },
+    "exported_at_2026-05-16T14:04:47-0700": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 19, 36, 14 ]
+      ],
+      "west": []
+    },
+    "exported_at_2026-05-16T14:31:30-0700": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 25, 25, 12 ]
+      ],
+      "west": []
     }
   },
   
@@ -69,6 +85,16 @@
       "name": "Eternal Grove",
       "file": "green_island_1.snbt",
       "spawns": "exported_at_2026-05-14T23:14:59-0700"
+    },
+    {
+      "name": "shard_of_the_heavens",
+      "file": "shard_of_the_heavens.snbt",
+      "spawns": "exported_at_2026-05-16T14:04:47-0700"
+    },
+    {
+      "name": "mutated_remnant",
+      "file": "mutated_remnant.snbt",
+      "spawns": "exported_at_2026-05-16T14:31:30-0700"
     }
   ]
 }
