@@ -1,0 +1,9 @@
+{
+    "name": "Path of the Apprentice",
+    "icon": {
+        "item": "wizards_reborn:arcane_wood_branch"
+    },
+    "translatable": true,
+    "order": 0,
+    "default_chapter": true
+}

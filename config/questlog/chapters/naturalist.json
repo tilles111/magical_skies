@@ -1,0 +1,8 @@
+{
+    "name": "Path of the Naturalist",
+    "icon": {
+        "item": "botania:horn_leaves"
+    },
+    "translatable": true,
+    "order": 1
+}

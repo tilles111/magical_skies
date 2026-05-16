@@ -20,6 +20,6 @@ ServerEvents.recipes(event => {
                 hide: true
             }
         ]
-    }) // TODO frog: add sound here // I solved it :) - Tilles
+    })
 
 })
