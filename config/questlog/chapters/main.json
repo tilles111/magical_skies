@@ -1,7 +1,8 @@
 {
-  "icon": {
-    "item": "minecraft:knowledge_book"
-  },
+    "name": "Path of the Apprentice",
+    "icon": {
+        "item": "wizards_reborn:arcane_wood_branch"
+    },
   "default_chapter": true,
-  "hidden": true
+  "hidden": false
 }
