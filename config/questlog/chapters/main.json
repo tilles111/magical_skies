@@ -2,6 +2,6 @@
   "icon": {
     "item": "minecraft:knowledge_book"
   },
-  "default_chapter": false,
+  "default_chapter": true,
   "hidden": true
 }

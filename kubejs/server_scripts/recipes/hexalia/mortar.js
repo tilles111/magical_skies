@@ -1,31 +1,35 @@
 ServerEvents.recipes(event => {
+
+    function mortar(output, inputs, id) {
+
+        if (id == undefined) {
+            let id_part = inputs.map(input => input.path)
+            id = `kubejs:mortar/${id_part.join('_and_')}_to_${Item.of(output).id.split(':')[1]}`
+        } // this is kind of cinge
+        event.custom({
+            type: 'hexalia:mortar_and_pestle',
+            ingredients: inputs.map(input => Ingredient.of(input).toJson()),
+            output: Item.of(output).toJson()
+        }).id(id)
+
+    }
+
     //Maybe a placeholder?
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "minecraft:cobblestone"
-            }
-        ],
-        output: {
-            item: "minecraft:gravel"
-        }
-    })
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "minecraft:cobblestone"
-            },
-            {
-                item: "minecraft:cobblestone"
-            }
-        ],
-        output: {
-            item: "minecraft:gravel",
-            count: 2
-        }
-    })
+    mortar(
+        'minecraft:gravel',
+        [
+            'minecraft:cobblestone'
+        ]
+    )
+
+    mortar(
+        Item.of('minecraft:gravel', 2),
+        [
+            'minecraft:cobblestone',
+            'minecraft:cobblestone'
+        ]
+    )
+
     event.custom({
         type: "hexalia:mortar_and_pestle",
         ingredients: [
@@ -135,6 +139,7 @@ ServerEvents.recipes(event => {
         }
     })
 
+    // Arcane Ashes
     event.custom({
         type: "hexalia:mortar_and_pestle",
         ingredients: [
@@ -148,8 +153,6 @@ ServerEvents.recipes(event => {
                 tag: "forge:dusts/ash"
             }
         ],
-        output: {
-            item: 'bloodmagic:arcaneashes'
-        }
+        output: Item.of('bloodmagic:arcaneashes', '{Damage:10}').toJson()
     })
 })

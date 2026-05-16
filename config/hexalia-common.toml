@@ -2,7 +2,7 @@
 #Miscellaneous gameplay and system settings
 [others]
 	#If true, block mutations will spawn item entities instead of directly placing blocks
-	mutationSpawnsItemEntity = true
+	mutationSpawnsItemEntity = false
 	#Radius in blocks affected by the Mandrake scream. Default: 5.0
 	#Range: 1.0 ~ 32.0
 	mandrakeScreamRadius = 5.0

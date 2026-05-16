@@ -232,6 +232,16 @@
 			x: -2.0d
 			y: -3.0d
 		}
+		{
+			id: "0B882F7F1D421258"
+			tasks: [{
+				id: "7575D8E899ABBF46"
+				item: "caupona:mud_counter_with_dolium"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
 	]
 	title: "early stuff"
 }
