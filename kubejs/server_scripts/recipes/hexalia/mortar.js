@@ -21,7 +21,6 @@ ServerEvents.recipes(event => {
             'minecraft:cobblestone'
         ]
     )
-
     mortar(
         Item.of('minecraft:gravel', 2),
         [
@@ -29,115 +28,58 @@ ServerEvents.recipes(event => {
             'minecraft:cobblestone'
         ]
     )
-
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "minecraft:cobblestone"
-            },
-            {
-                item: "minecraft:cobblestone"
-            },
-            {
-                item: "minecraft:cobblestone"
-            }
-        ],
-        output: {
-            item: "minecraft:gravel",
-            count: 3
-        }
-    })
+    mortar(
+        Item.of('minecraft:gravel', 3),
+        [
+            'minecraft:cobblestone',
+            'minecraft:cobblestone',
+            'minecraft:cobblestone'
+        ]
+    )
     //Also maybe a placeholder?
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "minecraft:gravel"
-            }
-        ],
-        output: {
-            item: "minecraft:sand"
-        }
-    })
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "minecraft:gravel"
-            },
-            {
-                item: "minecraft:gravel"
-            }
-        ],
-        output: {
-            item: "minecraft:sand",
-            count: 2
-        }
-    })
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "minecraft:gravel"
-            },
-            {
-                item: "minecraft:gravel"
-            },
-            {
-                item: "minecraft:gravel"
-            }
-        ],
-        output: {
-            item: "minecraft:sand",
-            count: 3
-        }
-    })
+    mortar(
+        'minecraft:sand',
+        [
+            'minecraft:gravel'
+        ]
+    )
+    mortar(
+        Item.of('minecraft:sand', 2),
+        [
+            'minecraft:gravel',
+            'minecraft:gravel'
+        ]
+    )
+    mortar(
+        Item.of('minecraft:sand', 3),
+        [
+            'minecraft:gravel',
+            'minecraft:gravel',
+            'minecraft:gravel'
+        ]
+    )
     
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "forbidden_arcanus:arcane_crystal"
-            }
-        ],
-        output: {
-            item: "forbidden_arcanus:arcane_crystal_dust"
-        }
-    })
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "forbidden_arcanus:arcane_crystal"
-            },
-            {
-                item: "forbidden_arcanus:arcane_crystal"
-            }
-        ],
-        output: {
-            item: "forbidden_arcanus:arcane_crystal_dust",
-            count: 2
-        }
-    })
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "forbidden_arcanus:arcane_crystal"
-            },
-            {
-                item: "forbidden_arcanus:arcane_crystal"
-            },
-            {
-                item: "forbidden_arcanus:arcane_crystal"
-            }
-        ],
-        output: {
-            item: "forbidden_arcanus:arcane_crystal_dust",
-            count: 3
-        }
-    })
+    mortar(
+        'forbidden_arcanus:arcane_crystal_dust',
+        [
+            'forbidden_arcanus:arcane_crystal'
+        ]
+    )
+    mortar(
+        Item.of('forbidden_arcanus:arcane_crystal_dust', 2),
+        [
+            'forbidden_arcanus:arcane_crystal',
+            'forbidden_arcanus:arcane_crystal'
+        ]
+    )
+    mortar(
+        Item.of('forbidden_arcanus:arcane_crystal_dust', 3),
+        [
+            'forbidden_arcanus:arcane_crystal',
+            'forbidden_arcanus:arcane_crystal',
+            'forbidden_arcanus:arcane_crystal'
+        ]
+    )
 
     // Arcane Ashes
     event.custom({
