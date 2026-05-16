@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+
     //Maybe a placeholder?
     event.custom({
         type: "hexalia:mortar_and_pestle",
@@ -135,6 +136,7 @@ ServerEvents.recipes(event => {
         }
     })
 
+    // Arcane Ashes
     event.custom({
         type: "hexalia:mortar_and_pestle",
         ingredients: [
@@ -148,8 +150,6 @@ ServerEvents.recipes(event => {
                 tag: "forge:dusts/ash"
             }
         ],
-        output: {
-            item: 'bloodmagic:arcaneashes'
-        }
+        output: Item.of('bloodmagic:arcaneashes', '{Damage:10}').toJson()
     })
 })
