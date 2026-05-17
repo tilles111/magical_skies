@@ -14,7 +14,7 @@
 #Knowledge
 [knowledge]
 	#Enable Arcanemicon Offering
-	arcanemiconOffering = true
+	arcanemiconOffering = false
 	#Ticks with game for Arcanemicon Offering.
 	#Range: > 0
 	arcanemiconOfferingTicks = 144000
