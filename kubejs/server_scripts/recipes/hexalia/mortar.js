@@ -14,72 +14,25 @@ ServerEvents.recipes(event => {
 
     }
 
+    function bulk_1to1(output, input, id) {
+
+        // idk if this is efficient lol
+        for (let i = 1; i <= 3; i++) {
+            mortar(
+                Item.of(output, i),
+                Array(i).fill(input),
+                id
+            )
+        }
+
+    }
+
     //Maybe a placeholder?
-    mortar(
-        'minecraft:gravel',
-        [
-            'minecraft:cobblestone'
-        ]
-    )
-    mortar(
-        Item.of('minecraft:gravel', 2),
-        [
-            'minecraft:cobblestone',
-            'minecraft:cobblestone'
-        ]
-    )
-    mortar(
-        Item.of('minecraft:gravel', 3),
-        [
-            'minecraft:cobblestone',
-            'minecraft:cobblestone',
-            'minecraft:cobblestone'
-        ]
-    )
+    bulk_1to1('minecraft:gravel', 'minecraft:cobblestone')
     //Also maybe a placeholder?
-    mortar(
-        'minecraft:sand',
-        [
-            'minecraft:gravel'
-        ]
-    )
-    mortar(
-        Item.of('minecraft:sand', 2),
-        [
-            'minecraft:gravel',
-            'minecraft:gravel'
-        ]
-    )
-    mortar(
-        Item.of('minecraft:sand', 3),
-        [
-            'minecraft:gravel',
-            'minecraft:gravel',
-            'minecraft:gravel'
-        ]
-    )
-    
-    mortar(
-        'forbidden_arcanus:arcane_crystal_dust',
-        [
-            'forbidden_arcanus:arcane_crystal'
-        ]
-    )
-    mortar(
-        Item.of('forbidden_arcanus:arcane_crystal_dust', 2),
-        [
-            'forbidden_arcanus:arcane_crystal',
-            'forbidden_arcanus:arcane_crystal'
-        ]
-    )
-    mortar(
-        Item.of('forbidden_arcanus:arcane_crystal_dust', 3),
-        [
-            'forbidden_arcanus:arcane_crystal',
-            'forbidden_arcanus:arcane_crystal',
-            'forbidden_arcanus:arcane_crystal'
-        ]
-    )
+    bulk_1to1('minecraft:sand', 'minecraft:gravel')
+
+    bulk_1to1('forbidden_arcanus:arcane_crystal_dust', 'forbidden_arcanus:arcane_crystal')    
 
     // Arcane Ashes
 
