@@ -82,19 +82,14 @@ ServerEvents.recipes(event => {
     )
 
     // Arcane Ashes
-    event.custom({
-        type: "hexalia:mortar_and_pestle",
-        ingredients: [
-            {
-                item: "forbidden_arcanus:arcane_crystal_dust"
-            },
-            {
-                tag: "forge:dusts/ash"
-            },
-            {
-                tag: "forge:dusts/ash"
-            }
-        ],
-        output: Item.of('bloodmagic:arcaneashes', '{Damage:10}').toJson()
-    })
+
+    mortar(
+        Item.of('bloodmagic:arcaneashes', '{Damage:10}'),
+        [
+            'forbidden_arcanus:arcane_crystal_dust',
+            '#forge:dusts/ash',
+            '#forge:dusts/ash'
+        ]
+    )
+
 })
