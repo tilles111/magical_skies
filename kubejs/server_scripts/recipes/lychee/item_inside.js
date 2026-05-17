@@ -1,4 +1,5 @@
 ServerEvents.recipes(event => {
+
     // INFINITE PEBBLES >:D
     event.custom({
         type: "lychee:item_inside",
@@ -18,6 +19,6 @@ ServerEvents.recipes(event => {
                 hide: true
             }
         ]
-    })
+    }).id('kubejs:item_inside/clay_from_sand_in_water')
 
 })

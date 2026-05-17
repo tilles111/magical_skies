@@ -21,7 +21,7 @@ ServerEvents.recipes(event => {
                 hide: true
             }
         ]
-    })
+    }).id('kubejs:block_interacting/pebble_from_air_on_bedrock')
 
     // Volatile Arcanum stuff
     event.custom({
@@ -43,6 +43,6 @@ ServerEvents.recipes(event => {
                 hide: true
             }
         ]
-    })
+    }).id('kubejs:block_interacting/arcane_crystal_from_flint_on_arcane_lumos')
 
 })

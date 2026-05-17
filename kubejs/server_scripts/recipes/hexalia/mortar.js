@@ -35,7 +35,6 @@ ServerEvents.recipes(event => {
     bulk_1to1('forbidden_arcanus:arcane_crystal_dust', 'forbidden_arcanus:arcane_crystal')    
 
     // Arcane Ashes
-
     mortar(
         Item.of('bloodmagic:arcaneashes', '{Damage:10}'),
         [
