@@ -1,7 +1,7 @@
 {
-  "icon": {
-    "item": "minecraft:knowledge_book"
-  },
-  "default_chapter": true,
-  "hidden": false
+    "icon": {
+        "item": "minecraft:knowledge_book"
+    },
+    "default_chapter": false,
+    "hidden": true
 }
