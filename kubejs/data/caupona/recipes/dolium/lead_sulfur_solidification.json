@@ -3,17 +3,23 @@
   "density": 0.0,
   "items": [
     {
+      "count": 2,
+      "item": {
+        "item": "theurgy:alchemical_sulfur_lead"
+      }
+    },
+    {
       "item": {
         "item": "forbidden_arcanus:arcane_crystal_dust_speck"
       }
     }
   ],
-  "fluid": "theurgy:sal_ammoniac",
-  "amount": 1000,
+  "fluid": "wizards_reborn:alchemy_oil",
+  "amount": 250,
   "keepInfo": false,
   "output": {
     "type": "forge:nbt",
-    "count": 1,
-    "item": "theurgy:sal_ammoniac_crystal"
+    "count": 18,
+    "item": "eidolon:lead_nugget"
   }
 }

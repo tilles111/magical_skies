@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     event.remove({output: 'theurgy:calcination_oven'})
     event.remove({output: 'theurgy:pyromantic_brazier'})
     event.remove({output: 'theurgy:sal_ammoniac_tank'})
+    event.remove({output: 'theurgy:digestion_vat'})
 
     event.shaped('theurgy:sal_ammoniac_accumulator',[
         'SAS',
@@ -52,5 +53,14 @@ ServerEvents.recipes(event => {
         L: '#forge:ingots/lead',
         B: 'minecraft:brick',
         W: '#forge:rods/wooden'
+    })
+    event.shaped('theurgy:digestion_vat',[
+        ' S ',
+        'L L',
+        'BBB'
+    ],{
+        L: '#forge:ingots/lead',
+        B: 'minecraft:brick',
+        S: 'theurgy:sal_ammoniac_crystal'
     })
 })

@@ -3,7 +3,7 @@
   "allow": [
     {
       "type": "caupona:sourceberries",
-      "cond": "half"
+      "cond": "mainly"
     }
   ],
   "base": [
@@ -11,7 +11,7 @@
       "fluid": "caupona:nail_soup"
     }
   ],
-  "density": 0.75,
+  "density": 1.2,
   "output": "kubejs:sourceberry_stew",
   "priority": 1200,
   "time": 200
