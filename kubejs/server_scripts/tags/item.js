@@ -12,6 +12,17 @@ ServerEvents.tags('item', event => {
     event.add('forge:storage_blocks/lead_or_iron', '#forge:storage_blocks/iron')
     event.add('forge:storage_blocks/lead_or_iron', '#forge:storage_blocks/lead')
 
+    //Spirit salt burning
+    event.add('kubejs:calcination/sacred', 'malum:sacred_spirit')
+    event.add('kubejs:calcination/wicked', 'malum:wicked_spirit')
+    event.add('kubejs:calcination/arcane', 'malum:arcane_spirit')
+    event.add('kubejs:calcination/eldritch', 'malum:eldritch_spirit')
+    event.add('kubejs:calcination/aerial', 'malum:aerial_spirit')
+    event.add('kubejs:calcination/aqueous', 'malum:aqueous_spirit')
+    event.add('kubejs:calcination/earthen', 'malum:earthen_spirit')
+    event.add('kubejs:calcination/infernal', 'malum:infernal_spirit')
+    event.add('kubejs:calcination/umbral', 'malum:umbral_spirit')
+
     // Ash Retagging
     event.remove('forge:dusts/ash', [
         'embers:ash'
