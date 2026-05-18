@@ -43,5 +43,23 @@ ServerEvents.recipes(event => {
             '#forge:dusts/ash'
         ]
     )
+    
+    mortar(
+        '2x kubejs:bronze_blend',
+        [
+            '#forge:ingots/tin',
+            '#forge:ingots/copper',
+            '#forge:ingots/copper'
+        ]
+    )
+    
+    mortar(
+        '2x eidolon:pewter_blend',
+        [
+            '#forge:ingots/lead',
+            '#forge:ingots/tin',
+            '#forge:ingots/tin'
+        ]
+    )
 
 })
