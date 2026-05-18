@@ -37,7 +37,7 @@ StartupEvents.registry('item', event => {
       .texture('layer0', 'embers:item/sword_bronze')
     event.create('bronze_pickaxe', 'pickaxe')
       .tier('bronze')
-      .texture('layer0', 'embers:item/_bronze')
+      .texture('layer0', 'embers:item/pickaxe_bronze')
     event.create('bronze_shovel', 'shovel')
       .tier('bronze')
       .texture('layer0', 'embers:item/shovel_bronze')
