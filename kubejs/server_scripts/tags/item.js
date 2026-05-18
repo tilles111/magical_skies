@@ -17,4 +17,9 @@ ServerEvents.tags('item', event => {
         'embers:ash'
     ])
 
+    // Sinew Retagging
+    event.remove('forge:string', [
+        'biomancy:mob_sinew'
+    ])
+
 })

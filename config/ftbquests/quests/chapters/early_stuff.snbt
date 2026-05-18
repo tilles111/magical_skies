@@ -242,6 +242,48 @@
 			x: 7.0d
 			y: 5.0d
 		}
+		{
+			id: "47607C988BAB1CAE"
+			tasks: [{
+				id: "54499B3DC430A493"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "20C67FCB51995D4D"
+			shape: "square"
+			tasks: [{
+				id: "5DB2463E451BB46B"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			id: "4E388A7B52056177"
+			shape: "square"
+			tasks: [{
+				id: "67DB92DC434F7850"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "37D0A785B76B72BB"
+			tasks: [{
+				id: "6CC84C968F0C10BF"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
 	]
 	title: "early stuff"
 }
