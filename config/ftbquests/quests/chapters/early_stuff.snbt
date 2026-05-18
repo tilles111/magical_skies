@@ -156,8 +156,8 @@
 				item: "forbidden_arcanus:arcane_bone_meal"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 8.0d
+			x: 9.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["006D953F384C89B7"]
@@ -281,8 +281,256 @@
 				item: "minecraft:composter"
 				type: "item"
 			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "1CCD52B0DA9E1C65"
+			tasks: [{
+				id: "213807049646F1F5"
+				item: "caupona:stew_pot"
+				type: "item"
+			}]
 			x: 6.0d
-			y: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "1E23AD650B909E91"
+			tasks: [{
+				id: "2334A11D44D63312"
+				item: "eidolon:lead_ingot"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			id: "79FB05B8DB88146F"
+			shape: "pentagon"
+			tasks: [{
+				id: "6DD92E74420B9F94"
+				item: "wizards_reborn:petals"
+				type: "item"
+			}]
+			title: "way of the florist"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			id: "0213F72FBFE7D80A"
+			tasks: [{
+				id: "62C9572BF3412A73"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 14.0d
+		}
+		{
+			id: "5CBEA493A181565C"
+			tasks: [{
+				id: "7B15F29135B938C0"
+				item: "hexalia:celestial_bloom"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["0B882F7F1D421258"]
+			id: "3552A6820B95CC44"
+			tasks: [{
+				id: "109061022711C5FF"
+				item: "hexalia:mutavis"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "2A7FF0501FF48859"
+			shape: "pentagon"
+			tasks: [{
+				id: "1E5AC255F72644EB"
+				item: "quark:ancient_sapling"
+				type: "item"
+			}]
+			title: "Way of the Arborist"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			id: "575531EF997AFE3C"
+			shape: "pentagon"
+			tasks: [{
+				id: "55995A6E6289EA21"
+				item: "eidolon:merammer_root"
+				type: "item"
+			}]
+			title: "way of the herbalist"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "3F716FD65ACB7E02"
+			tasks: [{
+				id: "73079B256D76BA1C"
+				item: "wizards_reborn:flower_fertilizer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["0B882F7F1D421258"]
+			id: "234C8E51961E8A1A"
+			tasks: [{
+				id: "255A3CC60F652F15"
+				item: "bloodmagic:reagentgrowth"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			id: "3FEA3F8B9084E080"
+			tasks: [{
+				id: "3BB5F1C26F2B0449"
+				item: "forbidden_arcanus:growing_edelwood"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 15.0d
+		}
+		{
+			id: "6A7E0BC916EFC51D"
+			tasks: [{
+				id: "39976B837B8D3664"
+				item: "hexalia:ghost_fern"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 10.0d
+		}
+		{
+			id: "407BFD4C330A9831"
+			tasks: [{
+				id: "3ADD0BC5D56F6646"
+				item: "forbidden_arcanus:aurum_sapling"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 15.0d
+		}
+		{
+			id: "537BD419BB081F4C"
+			tasks: [{
+				id: "54D561DAE681F7FA"
+				item: "eidolon:illwood_sapling"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 10.0d
+		}
+		{
+			id: "3A9BBEFA9CF71802"
+			tasks: [{
+				id: "343DF676E757F98D"
+				item: "wizards_reborn:arcane_wood_sapling"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 11.0d
+		}
+		{
+			id: "6386880E4E27F6D6"
+			tasks: [{
+				id: "7E24B8B22E365F53"
+				item: "occultism:otherworld_sapling"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.0d
+		}
+		{
+			id: "1CD897F5482A58BB"
+			tasks: [{
+				id: "3D4C6149071C0785"
+				item: "eidolon:avennian_sprig"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			id: "5276C3BEA3AEF603"
+			tasks: [{
+				id: "49D629E6432C551B"
+				item: "forbidden_arcanus:strange_root"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			id: "4E7C050BE2282154"
+			tasks: [{
+				id: "7B85339BF701B950"
+				item: "minecraft:oxeye_daisy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 14.0d
+		}
+		{
+			id: "33FBF1FF9DE75191"
+			tasks: [{
+				id: "2FF9C4483321547C"
+				item: "hexalia:ritual_brazier"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			id: "4FCA9A838890C10E"
+			tasks: [{
+				id: "718B29F78D37E808"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 14.0d
+		}
+		{
+			id: "1478603AFD6B0844"
+			tasks: [{
+				id: "55AAEDE8BDB65848"
+				item: "eidolon:oanna_bloom"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 12.0d
+		}
+		{
+			id: "44D159ED9EABBF29"
+			tasks: [{
+				id: "52CBA9FEBEF02E4B"
+				item: "botania:living_root"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 12.0d
+		}
+		{
+			id: "6C85948718689644"
+			tasks: [{
+				id: "742E4384182AA88C"
+				item: "minecraft:dandelion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.0d
 		}
 	]
 	title: "early stuff"
