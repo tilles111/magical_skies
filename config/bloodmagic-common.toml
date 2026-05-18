@@ -32,7 +32,7 @@ makeDungeonRitualCreativeOnly = false
 	blood_light = 10
 	#LP cost per use
 	#Range: 0 ~ 10000000
-	water = 100
+	water = 500
 	#LP cost per use
 	#Range: 0 ~ 10000000
 	lava = 1000
