@@ -17,9 +17,13 @@ ServerEvents.tags('item', event => {
     event.add('kubejs:calcination/wicked', 'malum:wicked_spirit')
     event.add('kubejs:calcination/arcane', 'malum:arcane_spirit')
     event.add('kubejs:calcination/eldritch', 'malum:eldritch_spirit')
+    event.add('kubejs:calcination/aerial', 'minecraft:dandelion')
     event.add('kubejs:calcination/aerial', 'malum:aerial_spirit')
+    event.add('kubejs:calcination/aqueous', 'minecraft:clay')
     event.add('kubejs:calcination/aqueous', 'malum:aqueous_spirit')
+    event.add('kubejs:calcination/earthen', 'minecraft:flint')
     event.add('kubejs:calcination/earthen', 'malum:earthen_spirit')
+    event.add('kubejs:calcination/infernal', '#minecraft:coals')
     event.add('kubejs:calcination/infernal', 'malum:infernal_spirit')
     event.add('kubejs:calcination/umbral', 'malum:umbral_spirit')
 
