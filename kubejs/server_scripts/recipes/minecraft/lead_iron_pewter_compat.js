@@ -23,19 +23,35 @@ ServerEvents.recipes(event => {
         'minecraft:stonecutter',
         'quark:framed_glass'
     ]
+
     event.replaceInput(
         { output: ironLeadItems },
-        'minecraft:iron_ingot',
-        '#forge:ingots/lead_or_iron'
+        '#forge:ingots/iron',
+        '#forge:ingots/lead_or_iron_or_pewter'
     )
     event.replaceInput(
         { output: ironLeadItems },
-        'minecraft:iron_nugget',
-        '#forge:nuggets/lead_or_iron'
+        '#forge:ingots/lead',
+        '#forge:ingots/lead_or_iron_or_pewter'
     )
     event.replaceInput(
         { output: ironLeadItems },
-        'minecraft:iron_block',
-        '#forge:storage_blocks/lead_or_iron'
+        '#forge:nuggets/iron',
+        '#forge:nuggets/lead_or_iron_or_pewter'
+    )
+    event.replaceInput(
+        { output: ironLeadItems },
+        '#forge:nuggets/lead',
+        '#forge:nuggets/lead_or_iron_or_pewter'
+    )
+    event.replaceInput(
+        { output: ironLeadItems },
+        '#forge:blocks/iron',
+        '#forge:storage_blocks/lead_or_iron_or_pewter'
+    )
+    event.replaceInput(
+        { output: ironLeadItems },
+        '#forge:blocks/lead',
+        '#forge:storage_blocks/lead_or_iron_or_pewter'
     )
 })

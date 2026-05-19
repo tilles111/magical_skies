@@ -4,14 +4,26 @@ ServerEvents.tags('item', event => {
     event.add('caupona:sourceberries', 'ars_nouveau:sourceberry_bush')
 
     // Lead or Iron tags
-    event.add('forge:ingots/lead_or_iron', '#forge:ingots/iron')
-    event.add('forge:ingots/lead_or_iron', '#forge:ingots/lead')
-    event.add('forge:nuggets/lead_or_iron', '#forge:nuggets/iron')
-    event.add('forge:nuggets/lead_or_iron', '#forge:nuggets/lead')
-    event.add('forge:plates/lead_or_iron', '#forge:plates/iron')
-    event.add('forge:plates/lead_or_iron', '#forge:plates/lead')
-    event.add('forge:storage_blocks/lead_or_iron', '#forge:storage_blocks/iron')
-    event.add('forge:storage_blocks/lead_or_iron', '#forge:storage_blocks/lead')
+    event.add('forge:ingots/lead_or_iron_or_pewter', [
+        '#forge:ingots/pewter',
+        '#forge:ingots/lead',
+        '#forge:ingots/iron'
+    ])
+    event.add('forge:nuggets/lead_or_iron_or_pewter', [
+        '#forge:nuggets/pewter',
+        '#forge:nuggets/lead',
+        '#forge:nuggets/iron'
+    ])
+    event.add('forge:storage_blocks/lead_or_iron_or_pewter', [
+        '#forge:storage_blocks/pewter',
+        '#forge:storage_blocks/lead',
+        '#forge:storage_blocks/iron'
+    ])
+
+    event.add('forge:plates/lead_or_iron', [
+        '#forge:plates/lead',
+        '#forge:plates/iron'
+    ])
 
     //Spirit salt burning
     event.add('kubejs:calcination/sacred', 'malum:sacred_spirit')
