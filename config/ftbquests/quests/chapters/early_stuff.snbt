@@ -542,6 +542,38 @@
 			x: 3.0d
 			y: 6.0d
 		}
+		{
+			id: "6DE005F3D91F9F71"
+			tasks: [{
+				id: "03A26214E6CE4EF5"
+				item: "malum:alchemical_calx"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6DE005F3D91F9F71"]
+			id: "13585037F9AFE1E4"
+			tasks: [{
+				id: "2CD77DA36F0BA21C"
+				item: "wizards_reborn:alchemy_calx"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6DE005F3D91F9F71"]
+			id: "5D373FC61A2D29C4"
+			tasks: [{
+				id: "4A2068B6B7D3E866"
+				item: "wizards_reborn:natural_calx"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.0d
+		}
 	]
 	title: "early stuff"
 }

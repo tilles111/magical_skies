@@ -36,7 +36,7 @@ ServerEvents.recipes(event => {
 
     // Arcane Ashes
     mortar(
-        Item.of('bloodmagic:arcaneashes', '{Damage:10}'),
+        Item.of('bloodmagic:arcaneashes', '{Damage:12}'),
         [
             'forbidden_arcanus:arcane_crystal_dust',
             '#forge:dusts/ash',
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
     )
     
     mortar(
-        '2x kubejs:bronze_blend',
+        Item.of('kubejs:bronze_blend', 2),
         [
             '#forge:ingots/tin',
             '#forge:ingots/copper',
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
     )
     
     mortar(
-        '2x eidolon:pewter_blend',
+        Item.of('eidolon:pewter_blend', 2),
         [
             '#forge:ingots/lead',
             '#forge:ingots/tin',
@@ -63,5 +63,40 @@ ServerEvents.recipes(event => {
     )
 
     // Reagents??
+    mortar(
+        'bloodmagic:reagentwater',
+        [
+            'eidolon:enchanted_ash', // TODO frog: consider replacing with wizreborn calx
+            'forbidden_arcanus:arcane_crystal_dust', // TODO frog: consider replacing with something else
+            'theurgy:crystallized_water'
+        ]
+    )
+
+    mortar(
+        'bloodmagic:reagentlava',
+        [
+            'eidolon:enchanted_ash', // TODO frog: consider replacing with wizreborn calx
+            'forbidden_arcanus:arcane_crystal_dust', // TODO frog: consider replacing with something else
+            'theurgy:crystallized_lava'
+        ]
+    )
+
+    mortar(
+        'bloodmagic:reagentgrowth',
+        [
+            'eidolon:enchanted_ash', // TODO frog: consider replacing with wizreborn calx
+            'forbidden_arcanus:arcane_crystal_dust', // TODO frog: consider replacing with something else
+            'wizards_reborn:flower_fertilizer'
+        ]
+    )
+
+    mortar(
+        'bloodmagic:reagentsight',
+        [
+            'eidolon:enchanted_ash', // TODO frog: consider replacing with wizreborn calx
+            'forbidden_arcanus:arcane_crystal_dust', // TODO frog: consider replacing with something else
+            'occultism:otherworld_essence'
+        ]
+    )
 
 })
