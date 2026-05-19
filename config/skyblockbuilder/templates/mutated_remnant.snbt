@@ -90807,7 +90807,7 @@
         {pos: [9, 38, 28], state: "minecraft:air"},
         {pos: [9, 38, 29], state: "minecraft:air"},
         {pos: [9, 38, 30], state: "minecraft:air"},
-        {pos: [9, 38, 31], state: "minecraft:air"},
+        {pos: [9, 38, 31], state: "wizards_reborn:purple_arcane_lumos"},
         {pos: [9, 38, 32], state: "minecraft:air"},
         {pos: [9, 38, 33], state: "minecraft:air"},
         {pos: [9, 38, 34], state: "minecraft:air"},

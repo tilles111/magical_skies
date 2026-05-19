@@ -35057,7 +35057,7 @@
         {pos: [18, 24, 24], state: "minecraft:air"},
         {pos: [18, 24, 25], state: "minecraft:air"},
         {pos: [18, 24, 26], state: "minecraft:air"},
-        {pos: [18, 24, 27], state: "minecraft:air"},
+        {pos: [18, 24, 27], state: "wizards_reborn:lime_arcane_lumos"},
         {pos: [18, 24, 28], state: "minecraft:air"},
         {pos: [18, 24, 29], state: "minecraft:air"},
         {pos: [18, 24, 30], state: "caupona:walnut_log{axis:y}"},

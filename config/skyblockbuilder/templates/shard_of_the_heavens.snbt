@@ -70160,7 +70160,7 @@
         {pos: [36, 38, 19], state: "minecraft:air"},
         {pos: [36, 38, 20], state: "minecraft:air"},
         {pos: [36, 38, 21], state: "minecraft:air"},
-        {pos: [36, 38, 22], state: "minecraft:air"},
+        {pos: [36, 38, 22], state: "wizards_reborn:light_blue_arcane_lumos"},
         {pos: [36, 38, 23], state: "minecraft:air"},
         {pos: [36, 38, 24], state: "minecraft:air"},
         {pos: [36, 38, 25], state: "minecraft:air"},
