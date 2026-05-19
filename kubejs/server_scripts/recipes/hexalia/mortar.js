@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
     mortar(
         Item.of('bloodmagic:arcaneashes', '{Damage:12}'),
         [
-            'forbidden_arcanus:arcane_crystal_dust',
+            '#forge:dusts/arcane_crystal',
             '#forge:dusts/ash',
             '#forge:dusts/ash'
         ]

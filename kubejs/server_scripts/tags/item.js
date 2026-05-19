@@ -48,6 +48,10 @@ ServerEvents.tags('item', event => {
     ])
     event.add('kubejs:calcination/umbral', 'malum:umbral_spirit')
 
+    //Arcanum Compat
+    event.add('forge:gems/arcane_crystal', '#forge:gems/arcanum')
+    event.add('forge:dusts/arcane_crystal', '#forge:dusts/arcanum')
+
     // Ash Retagging
     event.remove('forge:dusts/ash', [
         'embers:ash'
