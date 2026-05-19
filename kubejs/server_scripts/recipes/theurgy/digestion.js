@@ -1,5 +1,5 @@
 ServerEvents.recipes(event => {
-    event.remove({type: 'theurgy:digestion'})
+    event.remove({id: '/theurgy:.*digestion.*/'})
     event.custom({
         type: 'theurgy:digestion',
         fluid: {

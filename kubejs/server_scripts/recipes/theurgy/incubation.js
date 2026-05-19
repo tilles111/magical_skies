@@ -1,3 +1,3 @@
 ServerEvents.recipes(event => {
-    event.remove({type: 'theurgy:incubation'})
+    event.remove({id: '/theurgy:.*incubation.*/'})
 })

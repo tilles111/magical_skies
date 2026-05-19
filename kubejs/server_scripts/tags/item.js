@@ -1,7 +1,15 @@
 ServerEvents.tags('item', event => {
-    event.add('caupona:cereals', 'wizards_reborn:arcane_linen')
-    event.add('caupona:wolfberries', 'ars_nouveau:sourceberry_bush')
-    event.add('caupona:sourceberries', 'ars_nouveau:sourceberry_bush')
+
+    // Caupona
+    event.add('caupona:cereals', [
+        'wizards_reborn:arcane_linen'
+    ])
+    event.add('caupona:wolfberries', [
+        'ars_nouveau:sourceberry_bush'
+    ])
+    event.add('caupona:sourceberries', [
+        'ars_nouveau:sourceberry_bush'
+    ])
 
     // Lead or Iron tags
     event.add('forge:ingots/lead_or_iron_or_pewter', [
@@ -26,27 +34,37 @@ ServerEvents.tags('item', event => {
     ])
 
     //Spirit salt burning
-    event.add('kubejs:calcination/sacred', 'malum:sacred_spirit')
-    event.add('kubejs:calcination/wicked', 'malum:wicked_spirit')
-    event.add('kubejs:calcination/arcane', 'malum:arcane_spirit')
-    event.add('kubejs:calcination/eldritch', 'malum:eldritch_spirit')
+    event.add('kubejs:calcination/sacred', [
+        'malum:sacred_spirit'
+    ])
+    event.add('kubejs:calcination/wicked', [
+        'malum:wicked_spirit'
+    ])
+    event.add('kubejs:calcination/arcane', [
+        'malum:arcane_spirit'
+    ])
+    event.add('kubejs:calcination/eldritch', [
+        'malum:eldritch_spirit'
+    ])
     event.add('kubejs:calcination/aerial', [
-        'minecraft:dandelion',
-        'malum:aerial_spirit'
+        'malum:aerial_spirit',
+        'minecraft:dandelion'
     ])
     event.add('kubejs:calcination/aqueous', [
-        'minecraft:clay',
-        'malum:aqueous_spirit'
+        'malum:aqueous_spirit',
+        'minecraft:clay'
     ])
     event.add('kubejs:calcination/earthen', [
-        'minecraft:flint',
-        'malum:earthen_spirit'
+        'malum:earthen_spirit',
+        'minecraft:flint'
     ])
     event.add('kubejs:calcination/infernal', [
-        '#minecraft:coals',
-        'malum:infernal_spirit'
+        'malum:infernal_spirit',
+        '#minecraft:coals'
     ])
-    event.add('kubejs:calcination/umbral', 'malum:umbral_spirit')
+    event.add('kubejs:calcination/umbral', [
+        'malum:umbral_spirit'
+    ])
 
     //Arcanum Compat
     event.add('forge:gems/arcane_crystal', '#forge:gems/arcanum')

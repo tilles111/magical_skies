@@ -1,3 +1,9 @@
 ServerEvents.tags('fluid', event => {
-    event.add('caupona:stews', 'kubejs:sourceberry_stew')
+
+    // Caupona
+    event.add('caupona:stews', [
+        'kubejs:sourceberry_stew'
+    ])
+
+
 })
