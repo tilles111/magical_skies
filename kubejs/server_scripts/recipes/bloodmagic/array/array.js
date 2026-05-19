@@ -53,5 +53,6 @@ ServerEvents.recipes(event => {
         'minecraft:book',
         'minecraft:crafting_table'
     )
+    array('2x kubejs:unimbued_slate', 'minecraft:stone', '#forge:dusts/arcane_crystal')
 
 })

@@ -49,7 +49,7 @@ ServerEvents.recipes(event => {
     event.custom({
         type: 'lychee:block_interacting',
         item_in: {
-            item: 'quark:sturdy_stone'
+            item: 'kubejs:unimbued_slate'
         },
         block_in: 'supplementaries:statue',
         contextual: [
@@ -78,7 +78,7 @@ ServerEvents.recipes(event => {
             },
             {
                 type: 'execute',
-                command: '/playsound supplementaries:item.wrench.rotate block @a ~ ~ ~ 1 0.5',
+                command: 'playsound supplementaries:item.wrench.rotate block @a ~ ~ ~ 1 0.5',
                 hide: true
             }
         ] //todo frog: make the statue spin and play the sound higher a few times :) also figure out why the sound isnt playing
