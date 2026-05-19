@@ -46,12 +46,12 @@ ServerEvents.recipes(event => {
     )
     event.replaceInput(
         { output: ironLeadItems },
-        '#forge:blocks/iron',
+        '#forge:storage_blocks/iron',
         '#forge:storage_blocks/lead_or_iron_or_pewter'
     )
     event.replaceInput(
         { output: ironLeadItems },
-        '#forge:blocks/lead',
+        '#forge:storage_blocks/lead',
         '#forge:storage_blocks/lead_or_iron_or_pewter'
     )
 })

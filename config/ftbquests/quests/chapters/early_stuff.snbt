@@ -532,6 +532,16 @@
 			x: 0.0d
 			y: 13.0d
 		}
+		{
+			id: "24C12526A3A73550"
+			tasks: [{
+				id: "0CF0B37AB492F6F7"
+				item: "bloodmagic:reagentwater"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.0d
+		}
 	]
 	title: "early stuff"
 }

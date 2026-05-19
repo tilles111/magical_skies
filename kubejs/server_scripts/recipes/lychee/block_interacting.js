@@ -100,8 +100,6 @@ ServerEvents.recipes(event => {
             }
         }
         
-        
-        
         var directions = [
             'north',
             'east',
@@ -218,46 +216,6 @@ ServerEvents.recipes(event => {
             }).id(id_ghost)
 
     }
-
-    
-
-    // // Slate
-    // event.custom({
-    //     type: 'lychee:block_interacting',
-    //     item_in: {
-    //         item: 'kubejs:inert_slate'
-    //     },
-    //     block_in: 'supplementaries:statue',
-    //     contextual: [
-    //         {
-    //         type: 'and',
-    //         contextual: [
-    //             {
-    //                 type: 'is_sneaking'
-    //             }, {
-    //                 type: 'location',
-    //                 offsetY: -1,
-    //                 predicate: {
-    //                     block: {
-    //                         blocks: [
-    //                             'minecraft:chiseled_stone_bricks'
-    //                         ]
-    //                     }
-    //                 }
-    //             }, {
-    //                 type: 'location',
-    //                 offsetY: 1,
-    //                 predicate: {
-    //                     block: {
-    //                         tag: 'wizards_reborn:arcane_lumos'
-    //                     }
-    //                 }
-    //             }
-    //         ]
-    //     }],
-    //     post: statue_post_2
-    //     //todo frog: make the statue spin and play the sound higher a few times :) also figure out why the sound isnt playing
-    // }).id('kubejs:block_interacting/blankslate_from_sturdy_stone_on_statue_on_bedrock')
 
     statue_craft('bloodmagic:blankslate', 'kubejs:inert_slate')
 
