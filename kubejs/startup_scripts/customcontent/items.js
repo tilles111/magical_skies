@@ -13,7 +13,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 1
     tier.level = 1
     tier.enchantmentValue = 16
-    tier.repairIngredient = 'kubejs:unimbued_slate'
+    tier.repairIngredient = 'kubejs:inert_slate'
   })
   event.add('bronze', tier => {
     tier.uses = 300
@@ -27,7 +27,7 @@ ItemEvents.toolTierRegistry(event => {
 
 StartupEvents.registry('item', event => {
     event.create('bronze_blend')
-    event.create('unimbued_slate')
+    event.create('inert_slate')
 
     event.create('tin_ingot')
       .texture('layer0', 'embers:item/ingot_tin')

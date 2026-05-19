@@ -53,6 +53,7 @@ ServerEvents.recipes(event => {
         'minecraft:book',
         'minecraft:crafting_table'
     )
-    array('2x kubejs:unimbued_slate', 'minecraft:stone', '#forge:dusts/arcane_crystal')
+
+    array(Item.of('kubejs:inert_slate', 2), 'minecraft:stone', '#forge:dusts/arcane_crystal')
 
 })

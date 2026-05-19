@@ -19,7 +19,7 @@ ServerEvents.recipes(event => {
         'B',
         'S'
     ],{
-        U: 'kubejs:unimbued_slate',
+        U: 'kubejs:inert_slate',
         B: 'bloodmagic:blankslate',
         S: '#forge:rods/wooden'
     })
@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         ' S ',
         ' S '
     ],{
-        U: 'kubejs:unimbued_slate',
+        U: 'kubejs:inert_slate',
         B: 'bloodmagic:blankslate',
         S: '#forge:rods/wooden'
     })
@@ -45,7 +45,7 @@ ServerEvents.recipes(event => {
         'US',
         ' S'
     ],{
-        U: 'kubejs:unimbued_slate',
+        U: 'kubejs:inert_slate',
         B: 'bloodmagic:blankslate',
         S: '#forge:rods/wooden'
     })
@@ -54,7 +54,7 @@ ServerEvents.recipes(event => {
         ' S',
         ' S'
     ],{
-        U: 'kubejs:unimbued_slate',
+        U: 'kubejs:inert_slate',
         B: 'bloodmagic:blankslate',
         S: '#forge:rods/wooden'
     })
