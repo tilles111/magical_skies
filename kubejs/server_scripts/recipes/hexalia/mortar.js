@@ -3,7 +3,7 @@ ServerEvents.recipes(event => {
     function mortar(output, inputs, id) {
 
         if (id == undefined) {
-            let id_part = inputs.map(input => input.path)
+            let id_part = inputs.map(input => Item.of(input).id.split(':')[1])
             id = `kubejs:mortar/${id_part.join('_and_')}_to_${Item.of(output).id.split(':')[1]}`
         } // this is kind of cinge
         event.custom({
