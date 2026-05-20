@@ -35,6 +35,7 @@ ServerEvents.recipes(event => {
     bulk_1to1('forbidden_arcanus:arcane_crystal_dust', 'forbidden_arcanus:arcane_crystal')    
 
     // Arcane Ashes
+    event.remove({id: 'bloodmagic:alchemytable/arcane_ash'})
     mortar(
         Item.of('bloodmagic:arcaneashes', '{Damage:12}'),
         [
@@ -44,15 +45,8 @@ ServerEvents.recipes(event => {
         ]
     )
     
-    mortar(
-        Item.of('kubejs:bronze_blend', 2),
-        [
-            '#forge:ingots/tin',
-            '#forge:ingots/copper',
-            '#forge:ingots/copper'
-        ]
-    )
-    
+    // Blends
+    event.remove({id: 'eidolon:pewter_blend'})
     mortar(
         Item.of('eidolon:pewter_blend', 2),
         [
@@ -61,8 +55,17 @@ ServerEvents.recipes(event => {
             '#forge:ingots/tin'
         ]
     )
+    mortar(
+        Item.of('kubejs:bronze_blend', 2),
+        [
+            '#forge:ingots/tin',
+            '#forge:ingots/copper',
+            '#forge:ingots/copper'
+        ]
+    )
 
     // Reagents??
+    event.remove({id: 'bloodmagic:alchemytable/reagent_water'})
     mortar(
         'bloodmagic:reagentwater',
         [
@@ -71,7 +74,7 @@ ServerEvents.recipes(event => {
             'theurgy:crystallized_water'
         ]
     )
-
+    event.remove({id: 'bloodmagic:alchemytable/reagent_lava'})
     mortar(
         'bloodmagic:reagentlava',
         [
@@ -80,7 +83,7 @@ ServerEvents.recipes(event => {
             'theurgy:crystallized_lava'
         ]
     )
-
+    event.remove({id: 'bloodmagic:alchemytable/reagent_growth'})
     mortar(
         'bloodmagic:reagentgrowth',
         [
@@ -89,7 +92,7 @@ ServerEvents.recipes(event => {
             'wizards_reborn:flower_fertilizer'
         ]
     )
-
+    event.remove({id: 'bloodmagic:alchemytable/reagent_sight'})
     mortar(
         'bloodmagic:reagentsight',
         [
