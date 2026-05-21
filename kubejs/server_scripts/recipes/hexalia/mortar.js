@@ -32,8 +32,8 @@ ServerEvents.recipes(event => {
     //Also maybe a placeholder?
     bulk_1to1('minecraft:sand', 'minecraft:gravel')
 
-    bulk_1to1('forbidden_arcanus:arcane_crystal_dust', 'forbidden_arcanus:arcane_crystal')    
-
+    bulk_1to1('forbidden_arcanus:arcane_crystal_dust', 'forbidden_arcanus:arcane_crystal')
+      
     // Arcane Ashes
     event.remove({id: 'bloodmagic:alchemytable/arcane_ash'})
     mortar(
@@ -102,4 +102,26 @@ ServerEvents.recipes(event => {
         ]
     )
 
+    // Needed to do this for multiple outputs
+    mortar(
+        Item.of('wizards_reborn:alchemy_calx', 2),
+        [
+            'malum:alchemical_calx'
+        ]
+    )
+    mortar(
+        Item.of('wizards_reborn:alchemy_calx', 4),
+        [
+            'malum:alchemical_calx',
+            'malum:alchemical_calx'
+        ]
+    )
+    mortar(
+        Item.of('wizards_reborn:alchemy_calx', 6),
+        [
+            'malum:alchemical_calx',
+            'malum:alchemical_calx',
+            'malum:alchemical_calx'
+        ]
+    )
 })

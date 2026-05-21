@@ -2,6 +2,23 @@ ServerEvents.recipes(event => {
     // event.remove({type: 'theurgy:calcination'})
     // unnecessary - all recipes nuked by nukelist
 
+    function calcination(output, input_item, time) {
+
+        if (time == undefined) {
+            time = 200
+        }
+
+        event.custom({
+            type: 'theurgy:calcination',
+            ingredient: Ingredient.of(input_item).toJson(),
+            result: {item: output}, //frog please fix, it works but it won't support larger output stacks
+            time: time
+        }).id(`kubejs:calcination/${output.path}_from_${input_item.path}`)
+
+    }
+
+    calcination('malum:alchemical_calx', 'kubejs:alchemical_paste', 100)
+
     malum_spirits.forEach(spirit => {
         event.custom({
             type: 'theurgy:calcination',

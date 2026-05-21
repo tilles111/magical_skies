@@ -28,6 +28,7 @@ ItemEvents.toolTierRegistry(event => {
 StartupEvents.registry('item', event => {
     event.create('bronze_blend')
     event.create('inert_slate')
+    event.create('alchemical_paste')
 
     event.create('tin_ingot')
       .texture('layer0', 'embers:item/ingot_tin')

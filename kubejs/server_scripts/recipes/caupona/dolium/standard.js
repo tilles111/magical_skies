@@ -73,109 +73,54 @@ ServerEvents.recipes(event => {
     // This took a million years but the recipes should be easier to type now
     // if you want to keep an ingredient just replace its input 'namespace:path' with ['namespace:path', true]
 
+    // THANK YOU FROG - Tilles
+
     dolium_standard('theurgy:sal_ammoniac_crystal',
-        [
-            'forbidden_arcanus:arcane_crystal_dust_speck'
-        ],
-        'theurgy:sal_ammoniac'
+        [],
+        'theurgy:sal_ammoniac',
+        'forbidden_arcanus:arcane_crystal_dust_speck'
     ) // maybe make the dust speck the container?
     dolium_standard(Item.of('kubejs:tin_nugget', 18), 
         [
             Ingredient.of('theurgy:alchemical_sulfur_tin', 2),
-            'forbidden_arcanus:arcane_crystal_dust_speck'
+            'kubejs:earthen_salt'
         ],
         Fluid.of('wizards_reborn:alchemy_oil', 250)
     )
-
-    event.custom({
-        type: "caupona:dolium",
-        density: 0.0,
-        items: [
-            {
-                count: 2,
-                item : {
-                    item: 'theurgy:alchemical_sulfur_lead'
-                }
-            },
-            {
-                item : {
-                    item: 'forbidden_arcanus:arcane_crystal_dust_speck'
-                }
-            }
+    dolium_standard(Item.of('eidolon:lead_nugget', 18), 
+        [
+            Ingredient.of('theurgy:alchemical_sulfur_sulfur', 2),
+            'kubejs:earthen_salt'
         ],
-        fluid: "wizards_reborn:alchemy_oil",
-        amount: 250,
-        keepInfo: false,
-        output: {
-            type: "forge:nbt",
-            count: 18,
-            item: "eidolon:lead_nugget"
-        }
-    }).id('kubejs:dolium/sulfur_solidification/lead')
-    event.custom({
-        type: "caupona:dolium",
-        density: 0.0,
-        items: [
-            {
-                count: 2,
-                item : {
-                    item: 'theurgy:alchemical_sulfur_copper'
-                }
-            },
-            {
-                item : {
-                    item: 'forbidden_arcanus:arcane_crystal_dust_speck'
-                }
-            }
+        Fluid.of('wizards_reborn:alchemy_oil', 250)
+    )
+    dolium_standard(Item.of('malum:copper_nugget', 18), 
+        [
+            Ingredient.of('theurgy:alchemical_sulfur_copper', 2),
+            'kubejs:earthen_salt'
         ],
-        fluid: "wizards_reborn:alchemy_oil",
-        amount: 250,
-        keepInfo: false,
-        output: {
-            type: "forge:nbt",
-            count: 18,
-            item: "malum:copper_nugget"
-        }
-    }).id('kubejs:dolium/sulfur_solidification/copper')
+        Fluid.of('wizards_reborn:alchemy_oil', 250)
+    )
     
-    event.custom({
-        type: "caupona:dolium",
-        density: 0.0,
-        items: [
-            {
-                item : {
-                    item: 'minecraft:wheat_seeds'
-                }
-            }
+    dolium_standard(Item.of('wizards_reborn:arcane_linen_seeds', 18), 
+        [
+            'minecraft:wheat_seeds'
         ],
-        fluid: "kubejs:sourceberry_stew",
-        amount: 500,
-        keepInfo: false,
-        output: {
-            type: "forge:nbt",
-            count: 1,
-            item: "wizards_reborn:arcane_linen_seeds"
-        }
-    }).id('kubejs:dolium/arcane_linen')
-
-    event.custom({
-        type: "caupona:dolium",
-        density: 0.0,
-        items: [
-            {
-                count: 3,
-                item : {
-                    item: 'minecraft:gravel'
-                }
-            }
+        Fluid.of('kubejs:sourceberry_stew', 500)
+    )
+    
+    dolium_standard(Item.of('eidolon:lead_nugget', 9), 
+        [
+            Ingredient.of('minecraft:gravel', 3)
         ],
-        fluid: "kubejs:sourceberry_stew",
-        amount: 500,
-        keepInfo: false,
-        output: {
-            type: "forge:nbt",
-            count: 9,
-            item: "eidolon:lead_nugget"
-        }
-    }).id('kubejs:dolium/lead_leeching')
+        Fluid.of('kubejs:sourceberry_stew', 500)
+    )
+    
+    dolium_standard(Item.of('kubejs:alchemical_paste', 2), 
+        [
+            Ingredient.of('minecraft:clay_ball', 2),
+            'eidolon:enchanted_ash'
+        ],
+        Fluid.of('wizards_reborn:alchemy_oil', 250)
+    ) // Frog please mess with this, it kinda sucks
 })
