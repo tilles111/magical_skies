@@ -73,24 +73,37 @@ ServerEvents.recipes(event => {
     // This took a million years but the recipes should be easier to type now
     // if you want to keep an ingredient just replace its input 'namespace:path' with ['namespace:path', true]
 
-    // THANK YOU FROG - Tilles
-
     // Crystallizing
     dolium_standard('theurgy:sal_ammoniac_crystal',
-        [],
+        [
+            'forbidden_arcanus:arcane_crystal_dust_speck'
+        ],
         'theurgy:sal_ammoniac',
-        'forbidden_arcanus:arcane_crystal_dust_speck'
+        'wizards_reborn:alchemy_calx'
     )
     dolium_standard('theurgy:crystallized_water',
-        [],
+        [
+            'forbidden_arcanus:arcane_crystal_dust_speck'
+        ],
         'minecraft:water',
-        'forbidden_arcanus:arcane_crystal_dust_speck'
+        'wizards_reborn:alchemy_calx'
     )
     dolium_standard('theurgy:crystallized_lava',
-        [],
+        [
+            'forbidden_arcanus:arcane_crystal_dust_speck'
+        ],
         'minecraft:lava',
-        'forbidden_arcanus:arcane_crystal_dust_speck'
-    ) // TODO frog: consider using some sort of crystallizing catalyst: perhaps wiz calx?
+        'wizards_reborn:alchemy_calx'
+    )
+
+    dolium_standard('artifacts:crystal_heart',
+        [
+            'forbidden_arcanus:arcane_crystal_dust'
+        ],
+        'bloodmagic:life_essence_fluid',
+        'wizards_reborn:enchanted_calx'
+    )
+
 
 
     dolium_standard(Item.of('kubejs:tin_nugget', 18), 
