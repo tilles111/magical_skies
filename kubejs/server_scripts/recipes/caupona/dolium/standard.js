@@ -75,11 +75,24 @@ ServerEvents.recipes(event => {
 
     // THANK YOU FROG - Tilles
 
+    // Crystallizing
     dolium_standard('theurgy:sal_ammoniac_crystal',
         [],
         'theurgy:sal_ammoniac',
         'forbidden_arcanus:arcane_crystal_dust_speck'
-    ) // maybe make the dust speck the container?
+    )
+    dolium_standard('theurgy:crystallized_water',
+        [],
+        'minecraft:water',
+        'forbidden_arcanus:arcane_crystal_dust_speck'
+    )
+    dolium_standard('theurgy:crystallized_lava',
+        [],
+        'minecraft:lava',
+        'forbidden_arcanus:arcane_crystal_dust_speck'
+    ) // TODO frog: consider using some sort of crystallizing catalyst: perhaps wiz calx?
+
+
     dolium_standard(Item.of('kubejs:tin_nugget', 18), 
         [
             Ingredient.of('theurgy:alchemical_sulfur_tin', 2),
@@ -89,7 +102,7 @@ ServerEvents.recipes(event => {
     )
     dolium_standard(Item.of('eidolon:lead_nugget', 18), 
         [
-            Ingredient.of('theurgy:alchemical_sulfur_sulfur', 2),
+            Ingredient.of('theurgy:alchemical_sulfur_lead', 2),
             'kubejs:earthen_salt'
         ],
         Fluid.of('wizards_reborn:alchemy_oil', 250)
