@@ -574,6 +574,16 @@
 			x: 12.0d
 			y: 9.0d
 		}
+		{
+			id: "7788C80420D5059E"
+			tasks: [{
+				id: "1C92D5ADCB083AF3"
+				item: "kubejs:inert_slate"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
 	]
 	title: "early stuff"
 }

@@ -14,12 +14,12 @@ ServerEvents.recipes(event => {
 
     }
 
-    function bulk_1to1(output, input, id) {
+    function bulk_onetomany(output, input, id) {
 
         // idk if this is efficient lol
         for (let i = 1; i <= 3; i++) {
             mortar(
-                Item.of(output, i),
+                Item.of(Item.of(output).id, Item.of(output).count * i),
                 Array(i).fill(input),
                 id
             )
@@ -28,11 +28,35 @@ ServerEvents.recipes(event => {
     }
 
     //Maybe a placeholder?
-    bulk_1to1('minecraft:gravel', 'minecraft:cobblestone')
+    bulk_onetomany('minecraft:gravel', 'minecraft:cobblestone')
     //Also maybe a placeholder?
-    bulk_1to1('minecraft:sand', 'minecraft:gravel')
+    bulk_onetomany('minecraft:sand', 'minecraft:gravel')
 
-    bulk_1to1('forbidden_arcanus:arcane_crystal_dust', 'forbidden_arcanus:arcane_crystal')
+    bulk_onetomany('forbidden_arcanus:arcane_crystal_dust', 'forbidden_arcanus:arcane_crystal')
+    event.remove({id: 'eidolon:merammer_resin'})
+    bulk_onetomany('eidolon:merammer_resin', 'eidolon:merammer_root')
+
+    bulk_onetomany(Item.of('wizards_reborn:alchemy_calx', 2), 'malum:alchemical_calx')
+
+    // Mushrooms!!!
+    event.remove({id: '/wizards_reborn:mortar\/ground.*/'})
+    bulk_onetomany('wizards_reborn:ground_brown_mushroom', 'minecraft:brown_mushroom')
+    bulk_onetomany(Item.of('wizards_reborn:ground_brown_mushroom', 5), 'farmersdelight:brown_mushroom_colony')
+    bulk_onetomany('wizards_reborn:ground_red_mushroom', 'minecraft:red_mushroom')
+    bulk_onetomany(Item.of('wizards_reborn:ground_red_mushroom', 5), 'farmersdelight:red_mushroom_colony')
+    bulk_onetomany('wizards_reborn:ground_crimson_fungus', 'minecraft:crimson_fungus')
+    bulk_onetomany('wizards_reborn:ground_warped_fungus', 'minecraft:warped_fungus')
+    bulk_onetomany('wizards_reborn:ground_mor', 'wizards_reborn:mor')
+    bulk_onetomany(Item.of('wizards_reborn:ground_mor', 5), 'wizards_reborn:mor_colony')
+    bulk_onetomany('wizards_reborn:ground_elder_mor', 'wizards_reborn:elder_mor')
+    bulk_onetomany(Item.of('wizards_reborn:ground_elder_mor', 5), 'wizards_reborn:elder_mor_colony')
+    // Mirecap, Dreamshroom, Glow shroom, Aura fungi? Sprouting fungus?
+
+    dye_colors.forEach(dye_color => {
+
+        bulk_onetomany(`minecraft:${dye_color}_dye`, `botania:${dye_color}_mushroom`)
+
+    })
       
     // Arcane Ashes
     event.remove({id: 'bloodmagic:alchemytable/arcane_ash'})
@@ -99,29 +123,6 @@ ServerEvents.recipes(event => {
             'eidolon:enchanted_ash', // TODO frog: consider replacing with wizreborn calx
             'forbidden_arcanus:arcane_crystal_dust', // TODO frog: consider replacing with something else
             'occultism:otherworld_essence'
-        ]
-    )
-
-    // Needed to do this for multiple outputs
-    mortar(
-        Item.of('wizards_reborn:alchemy_calx', 2),
-        [
-            'malum:alchemical_calx'
-        ]
-    )
-    mortar(
-        Item.of('wizards_reborn:alchemy_calx', 4),
-        [
-            'malum:alchemical_calx',
-            'malum:alchemical_calx'
-        ]
-    )
-    mortar(
-        Item.of('wizards_reborn:alchemy_calx', 6),
-        [
-            'malum:alchemical_calx',
-            'malum:alchemical_calx',
-            'malum:alchemical_calx'
         ]
     )
 })

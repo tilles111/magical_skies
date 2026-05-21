@@ -11,7 +11,7 @@ ServerEvents.recipes(event => {
         event.custom({
             type: 'theurgy:calcination',
             ingredient: Ingredient.of(input_item).toJson(),
-            result: {item: output}, //frog please fix, it works but it won't support larger output stacks
+            result: Item.of(output).toJson(),
             time: time
         }).id(`kubejs:calcination/${output.path}_from_${input_item.path}`)
 
@@ -29,5 +29,5 @@ ServerEvents.recipes(event => {
             time: 200
         }).id(`kubejs:calcination/${spirit}_salt`)
     })
-    
+
 })
