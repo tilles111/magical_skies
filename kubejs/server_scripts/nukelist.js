@@ -41,7 +41,9 @@ const nukelist = [
     'minecraft:stone_shovel',
     'minecraft:stone_axe',
     'minecraft:stone_hoe',
-    'forbidden_arcanus:stone_blacksmith_gavel'
+    'forbidden_arcanus:stone_blacksmith_gavel',
+
+    'sophisticatedstorage:basic_tier_upgrade'
 ]
 
 ServerEvents.tags('item', event => {
