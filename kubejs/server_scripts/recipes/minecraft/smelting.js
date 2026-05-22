@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
             }
             event.smelting(output, input, xp, duration).id(id_full)
         }
-        if (!(blasting == undefined) || blasting) {
+        if (!(blasting == undefined) && blasting) {
             if (id == undefined) {
                 id_full = `kubejs:blasting/${id_end}`
             } else {
@@ -38,7 +38,7 @@ ServerEvents.recipes(event => {
             }
             event.blasting(output, input, xp, duration_fast).id(id_full)
         }
-        if (!(smoking == undefined) || smoking) {
+        if (!(smoking == undefined) && smoking) {
             if (id == undefined) {
                 id_full = `kubejs:smoking/${id_end}`
             } else {
@@ -46,7 +46,7 @@ ServerEvents.recipes(event => {
             }
             event.smoking(output, input, xp, duration_fast).id(id_full)
         }
-        if (!(campfireCooking == undefined) || campfireCooking) {
+        if (!(campfireCooking == undefined) && campfireCooking) {
             if (id == undefined) {
                 id_full = `kubejs:campfire_cooking/${id_end}`
             } else {
