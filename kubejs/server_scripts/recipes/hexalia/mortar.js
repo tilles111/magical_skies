@@ -52,6 +52,11 @@ ServerEvents.recipes(event => {
     bulk_onetomany(Item.of('wizards_reborn:ground_elder_mor', 5), 'wizards_reborn:elder_mor_colony')
     // Mirecap, Dreamshroom, Glow shroom, Aura fungi? Sprouting fungus?
 
+    // Petals
+    event.remove({id: 'wizards_reborn:mortar/petals'})
+    bulk_onetomany('wizards_reborn:petals', '#minecraft:small_flowers')
+    bulk_onetomany(Item.of('wizards_reborn:petals', 2), '#minecraft:tall_flowers')
+
     dye_colors.forEach(dye_color => {
 
         bulk_onetomany(`minecraft:${dye_color}_dye`, `botania:${dye_color}_mushroom`)

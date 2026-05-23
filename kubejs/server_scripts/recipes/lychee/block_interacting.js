@@ -132,7 +132,7 @@ ServerEvents.recipes(event => {
                     },
                     {
                         type: 'execute',
-                        command: `playsound ${sound} block @a ~ ~ ~ 1 ${(0.375 + 0.125*i)}`,
+                        command: `playsound ${sound} block @a ~ ~ ~ 1 ${(0.125 + 0.125*i)}`,
                     },
                     {
                         type: 'delay',
@@ -218,6 +218,7 @@ ServerEvents.recipes(event => {
     }
 
     statue_craft('bloodmagic:blankslate', 'kubejs:inert_slate')
+    statue_craft('botania:grass_seeds', 'wizards_reborn:flower_fertilizer') // TODO frog: change input later, maybe make this arcane ashes instead
 
 
 })

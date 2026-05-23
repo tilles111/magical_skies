@@ -345,7 +345,7 @@
 				type: "item"
 			}]
 			x: 5.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			id: "2A7FF0501FF48859"
@@ -390,7 +390,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 7.0d
+			y: 6.5d
 		}
 		{
 			id: "3FEA3F8B9084E080"
@@ -519,8 +519,8 @@
 				item: "botania:living_root"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 12.0d
+			x: 7.5d
+			y: 9.0d
 		}
 		{
 			id: "6C85948718689644"
@@ -529,8 +529,8 @@
 				item: "minecraft:dandelion"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 13.0d
+			x: 7.5d
+			y: 8.0d
 		}
 		{
 			id: "24C12526A3A73550"
@@ -540,7 +540,7 @@
 				type: "item"
 			}]
 			x: 3.0d
-			y: 6.0d
+			y: 5.5d
 		}
 		{
 			id: "6DE005F3D91F9F71"
@@ -583,6 +583,107 @@
 			}]
 			x: 8.0d
 			y: 6.0d
+		}
+		{
+			id: "32D8669508E85530"
+			tasks: [{
+				id: "2929662BD5D86774"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.5d
+		}
+		{
+			id: "61BFCF286452317B"
+			tasks: [{
+				id: "0CF409FB218BA53C"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			id: "3B0393AFD145CCA0"
+			tasks: [{
+				id: "094F8F864E7F02A2"
+				item: "wizards_reborn:arcane_wood_sapling"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "247CC3AB27DCB9BE"
+			tasks: [{
+				id: "132F8AA706AB2725"
+				item: "occultism:otherworld_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "4B2F8122D553D380"
+			tasks: [{
+				id: "4196D9617CF1303A"
+				item: "hexalia:willow_sapling"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "040642759D681287"
+			tasks: [{
+				id: "14C54AB624E5E4A3"
+				item: "eidolon:enchanted_ash"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["79FB05B8DB88146F"]
+			id: "50D2E000A670B711"
+			tasks: [{
+				id: "71B20498D083191A"
+				item: "botania:grass_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.0d
+		}
+		{
+			id: "4B325643F177167F"
+			tasks: [{
+				id: "0DCA8982E5A4F78D"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 10.5d
+		}
+		{
+			id: "50535D3DE4F8B6BD"
+			tasks: [{
+				id: "152EF999CB3E76F9"
+				item: "naturesaura:gold_fiber"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 8.5d
+		}
+		{
+			id: "1D0B4D463B03543B"
+			tasks: [{
+				id: "660D88870D6E3226"
+				item: "farmersdelight:wild_carrots"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
 		}
 	]
 	title: "early stuff"
