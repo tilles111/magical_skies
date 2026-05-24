@@ -55,4 +55,27 @@ ServerEvents.recipes(event => {
         B: 'bloodmagic:blankslate', // might switch for something mroe nature-y
         C: '#forge:rods/wooden' // if so, might replace with a twig instead
     })
+
+    // Moss
+    event.shapeless(
+        Item.of('ecologics:surface_moss', 6),
+        [
+            'minecraft:moss_carpet'
+        ]
+    )
+    event.remove({ id: 'quark:building/smelting/moss_paste'})
+    event.shapeless(
+        'quark:moss_paste',
+        [
+            'ecologics:surface_moss',
+            'ecologics:surface_moss',
+            'ecologics:surface_moss'
+        ]
+    )
+    event.shapeless(
+        Item.of('ecologics:surface_moss', 3),
+        [
+            'quark:moss_paste'
+        ]
+    )
 })

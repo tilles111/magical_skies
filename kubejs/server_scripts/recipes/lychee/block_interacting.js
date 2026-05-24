@@ -220,5 +220,60 @@ ServerEvents.recipes(event => {
     statue_craft('bloodmagic:blankslate', 'kubejs:inert_slate')
     statue_craft('botania:grass_seeds', 'wizards_reborn:flower_fertilizer') // TODO frog: change input later, maybe make this arcane ashes instead
 
+    function moss_scraping(output, input, amount, tool, sound, id) {
+
+        if (id == undefined) {
+            id = `kubejs:block_interacting/moss_scraping_${input.path}_to_${output.path}`
+        }
+        if (amount == undefined) {
+            amount = 1
+        }
+        if (tool == undefined) {
+            tool = 'hexalia:athame'
+            // also forge:tools/knives?
+        }
+        if (sound == undefined) {
+            sound = 'minecraft:block.moss.fall'
+        }
+
+        event.custom({
+            type: 'lychee:block_interacting',
+            item_in: Ingredient.of(tool).toJson(),
+            block_in: {
+                blocks: [
+                    input
+                ]
+            },
+            contextual: {
+                    type: 'is_sneaking'
+                },
+                post: [
+                    {
+                        type: 'damage_item'
+                    },
+                    {
+                        type: 'execute',
+                        command: `playsound ${sound} block @a ~ ~ ~ 0.5 1.5`,
+                    },
+                    {
+                        type: 'drop_item',
+                        item: 'ecologics:surface_moss',
+                        count: amount
+                    },
+                    {
+                        type: 'place',
+                        block: {
+                            blocks: [
+                                output
+                            ]
+                        }
+                    }
+                ]
+            }).id(id)
+
+    }
+
+    // TODO frog: fill in the blanks
+    moss_scraping('minecraft:cobblestone', 'minecraft:mossy_cobblestone')
 
 })
