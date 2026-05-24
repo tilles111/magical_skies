@@ -489,8 +489,8 @@
 				item: "hexalia:ritual_brazier"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.0d
+			x: 7.0d
+			y: 11.0d
 		}
 		{
 			id: "4FCA9A838890C10E"
@@ -656,16 +656,6 @@
 			y: 9.0d
 		}
 		{
-			id: "4B325643F177167F"
-			tasks: [{
-				id: "0DCA8982E5A4F78D"
-				item: "farmersdelight:onion"
-				type: "item"
-			}]
-			x: 10.0d
-			y: 10.5d
-		}
-		{
 			id: "50535D3DE4F8B6BD"
 			tasks: [{
 				id: "152EF999CB3E76F9"
@@ -684,6 +674,26 @@
 			}]
 			x: 6.0d
 			y: 6.5d
+		}
+		{
+			id: "20B77E73DFF2CA48"
+			tasks: [{
+				id: "666F815613DBBC8E"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 11.0d
+		}
+		{
+			id: "6900B9E9B433C302"
+			tasks: [{
+				id: "0B4F9A1535E92783"
+				item: "hexalia:mutavis"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 10.0d
 		}
 	]
 	title: "early stuff"

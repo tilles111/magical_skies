@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
+
+    // TODO frog: maybe add ids to these
+
     event.remove({id: 'minecraft:furnace'})
     event.remove({id: 'quark:building/crafting/furnaces/mixed_furnace'})
     event.remove({id: 'quark:building/crafting/furnaces/cobblestone_furnace'})
@@ -40,5 +43,16 @@ ServerEvents.recipes(event => {
         L: 'minecraft:clay',
         A: '#forge:gems/arcane_crystal',
         S: '#caupona:stoves'
+    })
+
+    event.remove({id: 'hexalia:hex_focus'})
+    event.shaped('hexalia:hex_focus', [
+        '  A',
+        ' B ',
+        'C  '
+    ], {
+        A: '#forge:gems/arcane_crystal',
+        B: 'bloodmagic:blankslate', // might switch for something mroe nature-y
+        C: '#forge:rods/wooden' // if so, might replace with a twig instead
     })
 })
