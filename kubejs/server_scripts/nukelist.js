@@ -43,7 +43,17 @@ const nukelist = [
     'minecraft:stone_hoe',
     'forbidden_arcanus:stone_blacksmith_gavel',
 
-    'sophisticatedstorage:basic_tier_upgrade'
+    'sophisticatedstorage:basic_tier_upgrade',
+    'sophisticatedstorage:basic_to_iron_tier_upgrade',
+    'sophisticatedstorage:basic_to_gold_tier_upgrade',
+    'sophisticatedstorage:basic_to_diamond_tier_upgrade',
+    'sophisticatedstorage:basic_to_netherite_tier_upgrade',
+    'sophisticatedstorage:copper_to_gold_tier_upgrade',
+    'sophisticatedstorage:copper_to_diamond_tier_upgrade',
+    'sophisticatedstorage:copper_to_netherite_tier_upgrade',
+    'sophisticatedstorage:iron_to_diamond_tier_upgrade',
+    'sophisticatedstorage:iron_to_netherite_tier_upgrade',
+    'sophisticatedstorage:gold_to_netherite_tier_upgrade'
 ]
 
 ServerEvents.tags('item', event => {
