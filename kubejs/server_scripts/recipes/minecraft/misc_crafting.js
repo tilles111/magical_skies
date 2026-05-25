@@ -78,4 +78,25 @@ ServerEvents.recipes(event => {
             'quark:moss_paste'
         ]
     )
+
+    // frick the default compost recipe
+    event.remove({id: 'minecraft:composter'})
+    event.shaped('minecraft:composter', [
+        'A A',
+        'A A',
+        'ABA'
+    ], {
+        A: '#minecraft:wooden_slabs',
+        B: '#minecraft:planks'
+    })
+
+    // mortar
+    event.remove({id: 'hexalia:mortar_and_pestle'})
+    event.shaped('hexalia:mortar_and_pestle', [
+        'A',
+        'B'
+    ], {
+        A: 'twigs:pebble',
+        B: 'minecraft:bowl'
+    })
 })

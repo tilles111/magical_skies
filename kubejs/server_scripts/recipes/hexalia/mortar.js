@@ -73,6 +73,14 @@ ServerEvents.recipes(event => {
             '#forge:dusts/ash'
         ]
     )
+    mortar(
+        Item.of('bloodmagic:arcaneashes', '{Damage:4}'),
+        [
+            'wizards_reborn:alchemy_calx',
+            'eidolon:enchanted_ash',
+            'eidolon:enchanted_ash'
+        ]
+    )
     
     // Blends
     event.remove({id: 'eidolon:pewter_blend'})
@@ -128,6 +136,16 @@ ServerEvents.recipes(event => {
             'eidolon:enchanted_ash', // TODO frog: consider replacing with wizreborn calx
             'forbidden_arcanus:arcane_crystal_dust', // TODO frog: consider replacing with something else
             'occultism:otherworld_essence'
+        ]
+    )
+
+    event.remove({id: 'hexalia:mutavis'})
+    event.remove({id: 'hexalia:mutavis_from_mortar'})
+    mortar(
+        'hexalia:mutavis',
+        [
+            'quark:moss_paste',
+            'eidolon:enchanted_ash'
         ]
     )
 })

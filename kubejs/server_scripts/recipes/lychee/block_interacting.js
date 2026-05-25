@@ -219,6 +219,7 @@ ServerEvents.recipes(event => {
 
     statue_craft('bloodmagic:blankslate', 'kubejs:inert_slate')
     statue_craft('botania:grass_seeds', 'wizards_reborn:flower_fertilizer') // TODO frog: change input later, maybe make this arcane ashes instead
+    statue_craft('eidolon:enchanted_ash', '#forge:dusts/ash')
 
     function moss_scraping(output, input, amount, tool, sound, id) {
 
@@ -244,33 +245,29 @@ ServerEvents.recipes(event => {
                     input
                 ]
             },
-            contextual: {
-                    type: 'is_sneaking'
+            post: [
+                {
+                    type: 'damage_item'
                 },
-                post: [
-                    {
-                        type: 'damage_item'
-                    },
-                    {
-                        type: 'execute',
-                        command: `playsound ${sound} block @a ~ ~ ~ 0.5 1.5`,
-                    },
-                    {
-                        type: 'drop_item',
-                        item: 'ecologics:surface_moss',
-                        count: amount
-                    },
-                    {
-                        type: 'place',
-                        block: {
-                            blocks: [
-                                output
-                            ]
-                        }
+                {
+                    type: 'execute',
+                    command: `playsound ${sound} block @a ~ ~ ~ 0.5 1.5`,
+                },
+                {
+                    type: 'drop_item',
+                    item: 'ecologics:surface_moss',
+                    count: amount
+                },
+                {
+                    type: 'place',
+                    block: {
+                        blocks: [
+                            output
+                        ]
                     }
-                ]
-            }).id(id)
-
+                }
+            ]
+        }).id(id)
     }
 
     // TODO frog: fill in the blanks
