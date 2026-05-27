@@ -147,5 +147,8 @@ ServerEvents.recipes(event => {
             'quark:moss_paste',
             'eidolon:enchanted_ash'
         ]
-    )
+    ) // TODO frog: fix this probably
+
+    event.remove({id: 'ars_nouveau:sourceberry_to_purple'})
+    bulk_onetomany('minecraft:purple_dye', 'ars_nouveau:sourceberry_bush')
 })

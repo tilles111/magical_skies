@@ -56,4 +56,6 @@ ServerEvents.recipes(event => {
 
     array(Item.of('kubejs:inert_slate', 2), 'minecraft:stone', '#forge:dusts/arcane_crystal')
 
+    array('hexalia:lavender', 'ecologics:surface_moss', '#forge:dyes/purple') // TODO frog: more plants like this??
+
 })
