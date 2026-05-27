@@ -252,6 +252,7 @@ ServerEvents.recipes(event => {
                 {
                     type: 'execute',
                     command: `playsound ${sound} block @a ~ ~ ~ 0.5 1.5`,
+                    hide: true
                 },
                 {
                     type: 'drop_item',
