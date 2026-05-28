@@ -79,6 +79,13 @@ ServerEvents.recipes(event => {
         P: 'twigs:pebble',
         S: '#forge:rods/wooden'
     })
+    event.shaped('kubejs:crude_shovel',[
+        'P',
+        'S'
+    ],{
+        P: 'twigs:pebble',
+        S: '#forge:rods/wooden'
+    })
     event.shaped('kubejs:crude_axe',[
         'P ',
         'PS'
