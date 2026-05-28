@@ -78,6 +78,14 @@ ServerEvents.recipes(event => {
             'quark:moss_paste'
         ]
     )
+    event.shapeless(
+        'minecraft:moss_block',
+        [
+            'quark:moss_paste',
+            'quark:moss_paste',
+            'quark:moss_paste'
+        ]
+    )
 
     // frick the default compost recipe
     event.remove({id: 'minecraft:composter'})
