@@ -250,7 +250,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 3.0d
+			y: 2.0d
 		}
 		{
 			id: "20C67FCB51995D4D"
@@ -281,8 +281,8 @@
 				item: "minecraft:composter"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 4.0d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			id: "1CCD52B0DA9E1C65"

@@ -66,7 +66,7 @@ ServerEvents.recipes(event => {
     // Arcane Ashes
     event.remove({id: 'bloodmagic:alchemytable/arcane_ash'})
     mortar(
-        Item.of('bloodmagic:arcaneashes', '{Damage:12}'),
+        Item.of('bloodmagic:arcaneashes', '{Damage:10}'),
         [
             '#forge:dusts/arcane_crystal',
             '#forge:dusts/ash',
@@ -74,7 +74,7 @@ ServerEvents.recipes(event => {
         ]
     )
     mortar(
-        Item.of('bloodmagic:arcaneashes', '{Damage:4}'),
+        'bloodmagic:arcaneashes',
         [
             'wizards_reborn:alchemy_calx',
             'eidolon:enchanted_ash',

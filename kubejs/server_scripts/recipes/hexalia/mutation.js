@@ -20,6 +20,6 @@ ServerEvents.recipes(event => {
     mutation('hexalia:wild_mandrake', 'farmersdelight:wild_potatoes')
     mutation('hexalia:wild_sunfire_tomato', 'farmersdelight:wild_tomatoes')
 
-    mutation('minecraft:carrot', 'botania:orange_mystical_flower')
+    mutation('minecraft:carrot', 'botania:orange_mystical_flower') // TODO frog: lame, change
 
 })

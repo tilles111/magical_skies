@@ -57,6 +57,10 @@ ServerEvents.recipes(event => {
 
     }
 
+    // forgot to note how this works but basically just put true and false (or 1 and 0) for each one you want/don't and it should make the recipe for the handlers
+    // defaults to furnace only
+    // im sure you can figure it out anyway but just in case
+
     smelt('supplementaries:ash', '#minecraft:planks')
     smelt('kubejs:bronze_ingot', 'kubejs:bronze_blend', true, true)
 
