@@ -128,7 +128,7 @@ ServerEvents.recipes(event => {
         Fluid.of('wizards_reborn:alchemy_oil', 250)
     )
     
-    dolium_standard(Item.of('wizards_reborn:arcane_linen_seeds', 18), 
+    dolium_standard('wizards_reborn:arcane_linen_seeds', 
         [
             'minecraft:wheat_seeds'
         ],

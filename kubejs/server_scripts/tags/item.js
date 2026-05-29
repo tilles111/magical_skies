@@ -1,4 +1,8 @@
 ServerEvents.tags('item', event => {
+    // Can't get charcoal on green island
+    event.add('minecraft:logs_that_burn', [
+        '#caupona:walnut_log'
+    ])
 
     // Caupona
     event.add('caupona:cereals', [
