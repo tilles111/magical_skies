@@ -70,7 +70,7 @@ ServerEvents.recipes(event => {
     sophStorageMaterial('birch', 'wizards_reborn:innocent_wood_planks', 'wizards_reborn:innocent_wood_slab')
     sophStorageMaterial('jungle', 'botania:dreamwood_planks', 'botania:dreamwood_planks_slab')
     sophStorageMaterial('acacia', 'wizards_reborn:arcane_wood_planks', 'wizards_reborn:arcane_wood_slab')
-    sophStorageMaterial('dark_oak', 'naturesaura:ancient_planks', 'naturesaura:ancient_planks')
+    sophStorageMaterial('dark_oak', 'naturesaura:ancient_planks', 'naturesaura:ancient_slab')
     sophStorageMaterial('cherry', 'eidolon:illwood_planks', 'eidolon:illwood_planks_slab')
     sophStorageMaterial('bamboo', 'eidolon:polished_planks', 'eidolon:polished_planks_slab')
     sophStorageMaterial('crimson', 'botania:livingwood_planks', 'botania:livingwood_planks_slab')

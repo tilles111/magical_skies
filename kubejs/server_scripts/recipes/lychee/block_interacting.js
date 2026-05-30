@@ -274,4 +274,54 @@ ServerEvents.recipes(event => {
     // TODO frog: fill in the blanks
     moss_scraping('minecraft:cobblestone', 'minecraft:mossy_cobblestone')
 
+    let petal_apothecary_types = [
+        'default'
+    ]
+
+    petal_apothecary_types.forEach(type => {
+
+        let apothecary = `botania:apothecary_${type}`
+
+        event.custom({
+            type: 'lychee:block_interacting',
+            item_in: Ingredient.of('caupona:water'),
+            block_in: {
+                blocks: [
+                    apothecary
+                ]
+            },
+            contextual: {
+                type: 'location',
+                predicate: {
+                    block: {
+                        blocks: [
+                            apothecary
+                        ],
+                        state: {
+                            fluid: 'empty'
+                        }
+                    }
+                }
+            },
+            post: [
+                {
+                    type: 'place',
+                    block: {
+                        blocks: [
+                            apothecary
+                        ],
+                        state: {
+                            fluid: 'water'
+                        }
+                    }
+                },
+                {
+                    type: 'set_item',
+                    item: 'minecraft:bowl'
+                }
+            ]
+        })
+
+    })
+
 })
