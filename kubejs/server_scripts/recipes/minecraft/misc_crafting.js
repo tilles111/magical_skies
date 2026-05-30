@@ -107,4 +107,7 @@ ServerEvents.recipes(event => {
         A: 'twigs:pebble',
         B: 'minecraft:bowl'
     })
+
+    // Petal Apoth
+    event.replaceInput({id: '/botania:apothecary.*/'}, '#botania:petals', 'wizards_reborn:petals')
 })

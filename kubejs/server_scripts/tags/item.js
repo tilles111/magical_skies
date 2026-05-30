@@ -84,4 +84,16 @@ ServerEvents.tags('item', event => {
         'biomancy:mob_sinew'
     ])
 
+    // Botania Catalyst
+    event.remove('botania:seed_apothecary_reagent', [
+        '#forge:seeds',
+        'minecraft:wheat_seeds',
+        'minecraft:beetroot_seeds',
+        'minecraft:melon_seeds',
+        'minecraft:pumpkin_seeds'
+    ])
+    event.add('botania:seed_apothecary_reagent', [
+        'ecologics:surface_moss'
+    ])
+
 })
