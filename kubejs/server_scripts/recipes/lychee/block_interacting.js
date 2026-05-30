@@ -227,7 +227,7 @@ ServerEvents.recipes(event => {
             id = `kubejs:block_interacting/moss_scraping_${input.path}_to_${output.path}`
         }
         if (amount == undefined) {
-            amount = 1
+            amount = 2
         }
         if (tool == undefined) {
             tool = 'hexalia:athame'
@@ -271,9 +271,43 @@ ServerEvents.recipes(event => {
         }).id(id)
     }
 
-    // TODO frog: fill in the blanks
     moss_scraping('minecraft:cobblestone', 'minecraft:mossy_cobblestone')
+    moss_scraping('minecraft:cobblestone_stairs', 'minecraft:mossy_cobblestone_stairs')
+    moss_scraping('minecraft:cobblestone_slab', 'minecraft:mossy_cobblestone_slab', 1)
+    moss_scraping('quark:cobblestone_vertical_slab', 'quark:mossy_cobblestone_vertical_slab', 1)
+    moss_scraping('minecraft:cobblestone_wall', 'minecraft:mossy_cobblestone_wall')
+    moss_scraping('quark:cobblestone_bricks', 'quark:mossy_cobblestone_bricks', 2, null, null, 'kubejs:block_interacting/moss_scraping_quark_mossy_cobblestone_bricks_to_cobblestone_bricks')
+    moss_scraping('quark:cobblestone_bricks_stairs', 'quark:mossy_cobblestone_bricks_stairs')
+    moss_scraping('quark:cobblestone_bricks_slab', 'quark:mossy_cobblestone_bricks_slab', 1)
+    moss_scraping('quark:cobblestone_bricks_vertical_slab', 'quark:mossy_cobblestone_bricks_vertical_slab', 1)
+    moss_scraping('quark:cobblestone_bricks_wall', 'quark:mossy_cobblestone_bricks_wall')
+    moss_scraping('minecraft:stone_bricks', 'minecraft:mossy_stone_bricks')
+    moss_scraping('minecraft:stone_brick_stairs', 'minecraft:mossy_stone_brick_stairs')
+    moss_scraping('minecraft:stone_brick_slab', 'minecraft:mossy_stone_brick_slab', 1)
+    moss_scraping('quark:stone_brick_vertical_slab', 'quark:mossy_stone_brick_vertical_slab', 1)
+    moss_scraping('minecraft:stone_brick_wall', 'minecraft:mossy_stone_brick_wall')
+    moss_scraping('architects_palette:heavy_stone_bricks', 'architects_palette:heavy_mossy_stone_bricks')
+    moss_scraping('minecraft:infested_stone_bricks', 'minecraft:infested_mossy_stone_bricks')
+    moss_scraping('minecraft:bricks', 'twigs:mossy_bricks')
+    moss_scraping('minecraft:brick_stairs', 'twigs:mossy_brick_stairs')
+    moss_scraping('minecraft:brick_slab', 'twigs:mossy_brick_slab', 1)
+    moss_scraping('minecraft:brick_wall', 'twigs:mossy_brick_wall')
+    moss_scraping('twigs:cobblestone_bricks', 'twigs:mossy_cobblestone_bricks')
+    moss_scraping('twigs:cobblestone_brick_stairs', 'twigs:mossy_cobblestone_brick_stairs')
+    moss_scraping('twigs:cobblestone_brick_slab', 'twigs:mossy_cobblestone_brick_slab', 1)
+    moss_scraping('twigs:cobblestone_brick_wall', 'twigs:mossy_cobblestone_brick_wall')
+    moss_scraping('botania:apothecary_default', 'botania:apothecary_mossy', 4)
+    moss_scraping('botania:livingrock_bricks', 'botania:mossy_livingrock_bricks')
+    moss_scraping('botania:livingrock_bricks_stairs', 'botania:mossy_livingrock_bricks_stairs')
+    moss_scraping('botania:livingrock_bricks_slab', 'botania:mossy_livingrock_bricks_slab', 1)
+    moss_scraping('botania:livingrock_bricks_wall', 'botania:mossy_livingrock_bricks_wall')
+    moss_scraping('botania:livingwood_planks', 'botania:mossy_livingwood_planks')
+    moss_scraping('botania:dreamwood_planks', 'botania:mossy_dreamwood_planks')
+    moss_scraping('hearth_and_home:cobblestone_chimney', 'hearth_and_home:mossy_cobblestone_chimney')
+    moss_scraping('hearth_and_home:stone_brick_chimney', 'hearth_and_home:mossy_stone_brick_chimney')
+    moss_scraping('eidolon:smooth_stone_bricks', 'eidolon:mossy_smooth_stone_bricks')
 
+    // TODO frog: fill in the blanks
     let petal_apothecary_types = [
         'default'
     ]
