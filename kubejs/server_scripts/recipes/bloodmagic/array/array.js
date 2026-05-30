@@ -61,21 +61,21 @@ ServerEvents.recipes(event => {
     array('bloodmagic:growthsigil', 'bloodmagic:reagentgrowth', 'bloodmagic:blankslate', 'growthsigil')
 
     // Flowers from moss and dye
-    array('minecraft:lily_of_the_valley', 'ecologics:surface_moss', '#forge:dyes/white')
-    array('minecraft:oxeye_daisy', 'ecologics:surface_moss', '#forge:dyes/light_gray')
+    array('ecologics:surface_moss', 'minecraft:lily_of_the_valley', '#forge:dyes/white')
+    array('ecologics:surface_moss', 'minecraft:oxeye_daisy', '#forge:dyes/light_gray')
     // idk about gray lol, no flowers curretnly craft into it
-    array('hexalia:nightshade_bush', 'ecologics:surface_moss', '#forge:dyes/black')
+    array('ecologics:surface_moss', 'hexalia:nightshade_bush', '#forge:dyes/black')
     // ditto brown
-    array('minecraft:poppy', 'ecologics:surface_moss', '#forge:dyes/red')
-    array('hexalia:dahlia', 'ecologics:surface_moss', '#forge:dyes/orange')
-    array('forbidden_arcanus:yellow_orchid', 'ecologics:surface_moss', '#forge:dyes/yellow') // maybe dandelion? also TODO frog: add to yellow recipe
+    array('ecologics:surface_moss', 'minecraft:poppy', '#forge:dyes/red')
+    array('ecologics:surface_moss', 'hexalia:dahlia', '#forge:dyes/orange')
+    array('ecologics:surface_moss', 'forbidden_arcanus:yellow_orchid', '#forge:dyes/yellow') // maybe dandelion? also TODO frog: add to yellow recipe
     // ditto lime
     // and green, maybe grass or fern?
     // i dont want pitcher plant bc tall and other reasons so cyan is out lol
-    array('minecraft:blue_orchid', 'ecologics:surface_moss', '#forge:dyes/light_blue')
-    array('minecraft:cornflower', 'ecologics:surface_moss', '#forge:dyes/blue')
-    array('hexalia:lavender', 'ecologics:surface_moss', '#forge:dyes/purple')
-    array('autumnity:autumn_crocus', 'ecologics:surface_moss', '#forge:dyes/magenta') // consider allium, azalea?
-    array('hexalia:begonia', 'ecologics:surface_moss', '#forge:dyes/pink')
+    array('ecologics:surface_moss', 'minecraft:blue_orchid', '#forge:dyes/light_blue')
+    array('ecologics:surface_moss', 'minecraft:cornflower', '#forge:dyes/blue')
+    array('ecologics:surface_moss', 'hexalia:lavender', '#forge:dyes/purple')
+    array('ecologics:surface_moss', 'autumnity:autumn_crocus', '#forge:dyes/magenta') // consider allium, azalea?
+    array('ecologics:surface_moss', 'hexalia:begonia', '#forge:dyes/pink')
 
 })

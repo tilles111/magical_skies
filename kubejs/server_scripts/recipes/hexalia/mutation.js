@@ -22,4 +22,6 @@ ServerEvents.recipes(event => {
 
     mutation('minecraft:carrot', 'botania:orange_mystical_flower') // TODO frog: lame, change
 
+    mutation('botania:pure_daisy', 'minecraft:oxeye_daisy')
+
 })
