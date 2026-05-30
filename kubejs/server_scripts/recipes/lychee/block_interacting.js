@@ -309,7 +309,18 @@ ServerEvents.recipes(event => {
 
     // TODO frog: fill in the blanks
     let petal_apothecary_types = [
-        'default'
+        'default',
+        'forest',
+        'plains',
+        'mountain',
+        'fungal',
+        'swamp',
+        'desert',
+        'taiga',
+        'mesa',
+        'mossy',
+        'livingrock',
+        'deepslate'
     ]
 
     petal_apothecary_types.forEach(type => {
@@ -353,8 +364,9 @@ ServerEvents.recipes(event => {
                     type: 'set_item',
                     item: 'minecraft:bowl'
                 }
-            ]
-        })
+            ],
+            hide_in_viewer: true
+        }).id(`kubejs:block_interacting/water_bowl_${apothecary.path}`)
 
     })
 
