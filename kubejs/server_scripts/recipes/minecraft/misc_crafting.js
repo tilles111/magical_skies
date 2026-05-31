@@ -115,6 +115,7 @@ ServerEvents.recipes(event => {
     event.remove({id: 'biomancy:crafting/clay_ball_from_stone_powder'})
     event.shapeless('minecraft:clay_ball', [
         'caupona:water',
+        'biomancy:stone_powder',
         'biomancy:stone_powder'
     ])
 
@@ -123,12 +124,17 @@ ServerEvents.recipes(event => {
         'biomancy:stone_powder',
         'biomancy:stone_powder',
         'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
         'biomancy:stone_powder'
     ])
 
     event.shaped('minecraft:gravel', [
-        'AA',
-        'AA'
+        'AAA',
+        'AAA',
+        'AAA'
     ], {
         A: 'biomancy:stone_powder'
     })
