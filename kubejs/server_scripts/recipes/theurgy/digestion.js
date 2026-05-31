@@ -28,13 +28,13 @@ ServerEvents.recipes(event => {
 
     }
 
-    digestion(Item.of('theurgy:alchemical_sulfur_lead', 2),
-        [
-            Item.of('theurgy:alchemical_sulfur_gravel', 4),
-            'kubejs:aqueous_salt'
-        ],
-        Fluid.of('kubejs:sourceberry_stew', 750)
-    )
+    //digestion(Item.of('theurgy:alchemical_sulfur_lead', 2),
+    //    [
+    //        Item.of('theurgy:alchemical_sulfur_gravel', 4),
+    //        'kubejs:aqueous_salt'
+    //    ],
+    //    Fluid.of('kubejs:sourceberry_stew', 750)
+    //)
 
     // event.custom({
     //     type: 'theurgy:digestion',
@@ -59,29 +59,29 @@ ServerEvents.recipes(event => {
     //     time: 600
     // })
 
-    digestion(Item.of('theurgy:alchemical_sulfur_tin', 2),
-        [
-            'theurgy:alchemical_sulfur_lead',
-            'kubejs:infernal_salt',
-            'kubejs:aqueous_salt'
-        ],
-        Fluid.of('kubejs:sourceberry_stew', 250)
-    )
-    digestion(Item.of('theurgy:alchemical_sulfur_iron', 2),
-        [
-            'theurgy:alchemical_sulfur_tin',
-            'kubejs:earthen_salt',
-            'kubejs:aqueous_salt'
-        ],
-        Fluid.of('kubejs:sourceberry_stew', 250)
-    )
-    digestion(Item.of('theurgy:alchemical_sulfur_copper', 2),
-        [
-            'theurgy:alchemical_sulfur_iron',
-            'kubejs:aerial_salt',
-            'kubejs:aqueous_salt'
-        ],
-        Fluid.of('kubejs:sourceberry_stew', 250)
-    )
+    //digestion(Item.of('theurgy:alchemical_sulfur_tin', 2),
+    //    [
+    //        'theurgy:alchemical_sulfur_lead',
+    //        'kubejs:infernal_salt',
+    //        'kubejs:aqueous_salt'
+    //    ],
+    //    Fluid.of('kubejs:sourceberry_stew', 250)
+    //)
+    //digestion(Item.of('theurgy:alchemical_sulfur_iron', 2),
+    //    [
+    //        'theurgy:alchemical_sulfur_tin',
+    //        'kubejs:earthen_salt',
+    //        'kubejs:aqueous_salt'
+    //    ],
+    //    Fluid.of('kubejs:sourceberry_stew', 250)
+    //)
+    //digestion(Item.of('theurgy:alchemical_sulfur_copper', 2),
+    //    [
+    //        'theurgy:alchemical_sulfur_iron',
+    //        'kubejs:aerial_salt',
+    //        'kubejs:aqueous_salt'
+    //    ],
+    //    Fluid.of('kubejs:sourceberry_stew', 250)
+    //)
     
 })

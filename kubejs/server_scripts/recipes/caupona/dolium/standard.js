@@ -149,4 +149,37 @@ ServerEvents.recipes(event => {
         ],
         Fluid.of('wizards_reborn:alchemy_oil', 250)
     ) // Frog please mess with this, it kinda sucks
+    
+    // So uhhh, you can't input sorceberry stew from a situla into a digestion vat lol
+    dolium_standard(Item.of('theurgy:alchemical_sulfur_lead', 2), 
+        [
+            Ingredient.of('theurgy:alchemical_sulfur_gravel', 4),
+            'kubejs:aqueous_salt'
+        ],
+        Fluid.of('kubejs:sourceberry_stew', 750)
+    )
+    dolium_standard(Item.of('theurgy:alchemical_sulfur_tin', 2), 
+        [
+            'theurgy:alchemical_sulfur_lead',
+            'kubejs:infernal_salt',
+            'kubejs:aqueous_salt'
+        ],
+        Fluid.of('kubejs:sourceberry_stew', 250)
+    )
+    dolium_standard(Item.of('theurgy:alchemical_sulfur_iron', 2), 
+        [
+            'theurgy:alchemical_sulfur_tin',
+            'kubejs:earthen_salt',
+            'kubejs:aqueous_salt'
+        ],
+        Fluid.of('kubejs:sourceberry_stew', 250)
+    )
+    dolium_standard(Item.of('theurgy:alchemical_sulfur_copper', 2), 
+        [
+            'theurgy:alchemical_sulfur_iron',
+            'kubejs:aerial_salt',
+            'kubejs:aqueous_salt'
+        ],
+        Fluid.of('kubejs:sourceberry_stew', 250)
+    )
 })

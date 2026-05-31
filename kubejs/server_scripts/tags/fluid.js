@@ -5,5 +5,4 @@ ServerEvents.tags('fluid', event => {
         'kubejs:sourceberry_stew'
     ])
 
-
 })
