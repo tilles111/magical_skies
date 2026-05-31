@@ -110,4 +110,26 @@ ServerEvents.recipes(event => {
 
     // Petal Apoth
     event.replaceInput({id: '/botania:apothecary.*/'}, '#botania:petals', 'wizards_reborn:petals')
+
+    // Clay Stuff
+    event.remove({id: 'biomancy:crafting/clay_ball_from_stone_powder'})
+    event.shapeless('minecraft:clay_ball', [
+        'caupona:water',
+        'biomancy:stone_powder'
+    ])
+
+    event.shapeless(Item.of('minecraft:clay_ball', 4), [
+        'minecraft:water_bucket',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder'
+    ])
+
+    event.shaped('minecraft:gravel', [
+        'AA',
+        'AA'
+    ], {
+        A: 'biomancy:stone_powder'
+    })
 })

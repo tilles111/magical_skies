@@ -27,7 +27,7 @@ ServerEvents.recipes(event => {
 
     }
 
-    bulk_onetomany(Item.of('minecraft:gravel', 2), 'minecraft:cobblestone')
+    bulk_onetomany(Item.of('biomancy:stone_powder', 8), 'minecraft:cobblestone')
     bulk_onetomany(Item.of('biomancy:stone_powder', 2), 'twigs:pebble')
     //Also maybe a placeholder?
     bulk_onetomany('minecraft:sand', 'minecraft:gravel')
