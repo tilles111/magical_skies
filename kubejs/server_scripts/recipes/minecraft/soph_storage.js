@@ -114,7 +114,7 @@ ServerEvents.recipes(event => {
         'ICI',
         ' I '
     ],{
-        I: '#forge:nuggets/terrasteel',
+        I: '#forge:ingots/terrasteel', // may change this back later
         C: '#forge:chests'
     })
 })
