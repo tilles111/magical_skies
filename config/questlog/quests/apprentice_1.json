@@ -2,5 +2,14 @@
     "title": "The Apprentice's Journey",
     "icon": "twigs:pebble",
     "description": "Test description!!!",
-    "chapter": "questlog:apprentice"
+    "chapter": "questlog:apprentice",
+    "objectives": [
+        {
+            "type": "questlog:item_obtain",
+            "name": "blah blah",
+            "icon": "twigs:pebble",
+            "item": "twigs:pebble",
+            "required_amount": 4
+        }
+    ]
 }
