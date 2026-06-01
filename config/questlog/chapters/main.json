@@ -1,7 +1,8 @@
 {
+    "name": "main test",
     "icon": {
         "item": "minecraft:knowledge_book"
     },
     "default_chapter": false,
-    "hidden": true
+    "hidden": false
 }
