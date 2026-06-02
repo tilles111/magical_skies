@@ -1,4 +1,4 @@
 ServerEvents.recipes(event => {
-    // event.remove({type: 'theurgy:reformation'})
-    // unnecessary because of nukelist
+    event.remove({type: 'theurgy:reformation'})
+    // nope
 })
