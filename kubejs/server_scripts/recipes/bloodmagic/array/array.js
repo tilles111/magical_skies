@@ -119,4 +119,25 @@ ServerEvents.recipes(event => {
     array('autumnity:autumn_crocus', '#forge:dyes/magenta', 'ecologics:surface_moss') // consider allium, azalea?
     array('hexalia:begonia', '#forge:dyes/pink', 'ecologics:surface_moss')
 
+    //Tilles' Soph Storage Stuff, feel free to change
+    array('sophisticatedstorage:crafting_upgrade', 'sophisticatedstorage:upgrade_base', 'minecraft:crafting_table')
+    array('sophisticatedstorage:smelting_upgrade', 'sophisticatedstorage:upgrade_base', 'minecraft:furnace')
+    array('sophisticatedstorage:stonecutter_upgrade', 'sophisticatedstorage:upgrade_base', 'minecraft:stonecutter')
+    array('sophisticatedstorage:filter_upgrade', 'sophisticatedstorage:upgrade_base', 'minecraft:paper')
+    array('sophisticatedstorage:compression_upgrade', 'sophisticatedstorage:upgrade_base', 'minecraft:piston')
+    array('sophisticatedstorage:pickup_upgrade', 'sophisticatedstorage:upgrade_base', 'quark:grate')
+    array('sophisticatedstorage:hopper_upgrade', 'sophisticatedstorage:upgrade_base', 'minecraft:hopper')
+    array('sophisticatedstorage:stack_downgrade_tier_1', 'sophisticatedstorage:upgrade_base', 'minecraft:flint')
+    array('sophisticatedstorage:stack_upgrade_tier_1', 'sophisticatedstorage:upgrade_base', '#forge:storage_blocks/pewter')
+    
+    array('sophisticatedstorage:auto_smelting_upgrade', 'sophisticatedstorage:smelting_upgrade', 'wizards_reborn:arcane_hopper')
+    array('sophisticatedstorage:advanced_pickup_upgrade', 'sophisticatedstorage:pickup_upgrade', 'wizards_reborn:arcane_hopper')
+    array('sophisticatedstorage:stack_upgrade_tier_1_plus', 'sophisticatedstorage:stack_upgrade_tier_1', '#forge:storage_blocks/arcane_gold')
+    array('sophisticatedstorage:stack_upgrade_tier_2', 'sophisticatedstorage:stack_upgrade_tier_1_plus', '#forge:storage_blocks/arcanum')
+    array('sophisticatedstorage:stack_upgrade_tier_3', 'sophisticatedstorage:stack_upgrade_tier_2', 'malum:block_of_soul_stained_steel')
+    array('sophisticatedstorage:stack_upgrade_tier_4', 'sophisticatedstorage:stack_upgrade_tier_3', '#forge:storage_blocks/mana_diamond')
+    array('sophisticatedstorage:stack_upgrade_tier_5', 'sophisticatedstorage:stack_upgrade_tier_4', '#forge:storage_blocks/terrasteel')
+    array('sophisticatedstorage:stack_downgrade_tier_2', 'sophisticatedstorage:stack_downgrade_tier_1', 'supplementaries:flint_block')
+    array('sophisticatedstorage:stack_downgrade_tier_3', 'sophisticatedstorage:stack_downgrade_tier_2', 'forbidden_arcanus:corrupted_arcane_crystal')
+
 })
