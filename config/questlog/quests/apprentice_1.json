@@ -1,7 +1,11 @@
 {
     "title": "The Apprentice's Journey",
     "icon": "twigs:pebble",
-    "description": "Test description!!!",
+    "description": [
+        "Test description!!!\n",
+        "Test 2\n",
+        "*poopy*"
+    ],
     "chapter": "questlog:apprentice",
     "objectives": [
         {
@@ -10,6 +14,12 @@
             "icon": "twigs:pebble",
             "item": "twigs:pebble",
             "required_amount": 4
+        }
+    ],
+    "rewards": [
+        {
+            "type": "questlog:item",
+            "item": "twigs:pebble"
         }
     ]
 }
