@@ -117,4 +117,14 @@ ServerEvents.recipes(event => {
         I: '#forge:ingots/terrasteel', // may change this back later
         C: '#forge:chests'
     })
+    
+    event.shaped('sophisticatedstorage:upgrade_base',[
+        'CRC',
+        'RWR',
+        'CRC'
+    ],{
+        R: 'botania:living_root',
+        W: '#botania:livingwood_logs',
+        C: '#forge:ingots/copper'
+    })
 })
