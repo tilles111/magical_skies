@@ -4,22 +4,36 @@
     "description": [
         "Test description!!!\n",
         "Test 2\n",
-        "*poopy*"
+        "poopy"
     ],
     "chapter": "questlog:apprentice",
     "objectives": [
         {
             "type": "questlog:item_obtain",
-            "name": "blah blah",
+            "name": "Gather Four Pebbles",
             "icon": "twigs:pebble",
             "item": "twigs:pebble",
             "required_amount": 4
+        },
+        {
+            "type": "questlog:item_obtain",
+            "name": "Craft a Crude Pickaxe",
+            "icon": "kubejs:crude_pickaxe",
+            "item": "kubejs:crude_pickaxe",
+            "required_amount": 1
+        },
+        {
+            "type": "questlog:item_obtain",
+            "name": "Craft a Crude Axe",
+            "icon": "kubejs:crude_axe",
+            "item": "kubejs:crude_axe",
+            "required_amount": 1
         }
     ],
     "rewards": [
-        {
-            "type": "questlog:item",
-            "item": "twigs:pebble"
-        }
+    //    {
+    //        "type": "questlog:item",
+    //        "item": "twigs:pebble"
+    //    }
     ]
 }
