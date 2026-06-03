@@ -1,0 +1,28 @@
+{
+    "title": "Introduction: Vitae, the Loquacious Logbook",
+    "icon": "wizards_reborn:arcane_enchanted_book",
+    "description": [
+        "A magnanimous greeting to you, dear reader; I am Vitae, the magical survival guide, and I will assist you on this journey. ",
+        "As you complete more of my objectives, I will populate with helpful lessons and tips that should help you survive on the island you find yourself on.",
+        "\n\n",
+        "Be aware, reader, that I have limited ink, so any deviation from these objectives will not be dignified with a response. ",
+        "\n\n",
+        "Now! Tout de suite! Affirm to me that you've \"Read\" all this, and we can be off to the races!"
+    ],
+    "description_completed": [
+        "A magnanimous greeting to you, dear reader; I am Vitae, the magical survival guide, and I will assist you on this journey. ",
+        "As you complete more of my objectives, I will populate with helpful lessons and tips that should help you survive on the island you find yourself on.",
+        "\n\n",
+        "Be aware, reader, that I have limited ink, so any deviation from these objectives will not be dignified with a response. ",
+        "\n\n",
+        "Now! Tout de suite! Affirm to me that you've \"Read\" all this, and we can be off to the races!",
+        "\n\n----------------\n\n",
+        "Excellent work. I'm sure we will become well acquainted by the end of our time together. "
+    ],
+    "chapter": "questlog:main",
+    "objectives": [
+        {
+            "type": "questlog:read"
+        }
+    ]
+}

@@ -1,8 +1,8 @@
 {
-    "name": "main test",
+    "name": "Main",
     "icon": {
-        "item": "minecraft:knowledge_book"
+        "item": "wizards_reborn:arcane_enchanted_book"
     },
-    "default_chapter": false,
+    "default_chapter": true,
     "hidden": false
 }

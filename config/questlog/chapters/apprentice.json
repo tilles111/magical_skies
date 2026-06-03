@@ -3,7 +3,7 @@
     "icon": {
         "item": "wizards_reborn:arcane_wood_branch"
     },
-    "default_chapter": true,
+    "default_chapter": false,
     "translatable": true,
     "order": 0
 }
