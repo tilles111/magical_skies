@@ -1,0 +1,38 @@
+{
+    "title": "Arcane Advancement",
+    "icon": "forbidden_arcanus:arcane_crystal",
+    "sort_order": 1,
+    "description": [
+        "Test description!!!\n",
+        "Test 2\n",
+        "poopy"
+    ],
+    "chapter": "questlog:apprentice",
+    "objectives": [
+        {
+            "type": "questlog:item_obtain",
+            "name": "Collect a piece of Flint",
+            "icon": "minecraft:flint",
+            "item": "minecraft:flint"
+        },
+        {
+            "type": "questlog:item_obtain",
+            "name": "Imbue magic into a piece of Flint using Arcane Lumos",
+            "icon": "forbidden_arcanus:arcane_crystal",
+            "item": "forbidden_arcanus:arcane_crystal"
+        }
+    ],
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:apprentice_1"
+        }
+    ],
+    "rewards": [
+        {
+            "type": "questlog:item",
+            "item": "minecraft:flint",
+            "count": 2
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "title": "The Grind Begins",
+    "icon": "hexalia:mortar_and_pestle",
+    "sort_order": 1,
+    "description": [
+        "Test description!!!\n",
+        "Test 2\n",
+        "poopy"
+    ],
+    "chapter": "questlog:apprentice",
+    "objectives": [
+        {
+            "type": "questlog:item_obtain",
+            "name": "Gather Four Pebbles",
+            "icon": "hexalia:mortar_and_pestle",
+            "item": "hexalia:mortar_and_pestle"
+        },
+        {
+            "type": "questlog:item_obtain",
+            "name": "Crush Cobblestone or Pebbles down into Lithic Powder",
+            "icon": "biomancy:stone_powder",
+            "item": "biomancy:stone_powder"
+        },
+        {
+            "type": "questlog:item_obtain",
+            "name": "Turn Lithic Powder or Sand into Clay",
+            "icon": "minecraft:clay_ball",
+            "item": "minecraft:clay_ball"
+        }
+    ],
+    "requirements": [
+        {
+            "type": "questlog:quest_complete",
+            "quest": "questlog:apprentice_1"
+        }
+    ],
+    "rewards": [
+        {
+            "type": "questlog:item",
+            "item": "minecraft:gravel",
+            "count": 4
+        },
+        {
+            "type": "questlog:item",
+            "item": "minecraft:sand",
+            "count": 4
+        }
+    ]
+}

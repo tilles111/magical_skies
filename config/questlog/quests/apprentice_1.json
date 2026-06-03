@@ -1,6 +1,7 @@
 {
     "title": "The Apprentice's Journey",
     "icon": "twigs:pebble",
+    "sort_order": 0,
     "description": [
         "Test description!!!\n",
         "Test 2\n",
@@ -19,21 +20,20 @@
             "type": "questlog:item_obtain",
             "name": "Craft a Crude Pickaxe",
             "icon": "kubejs:crude_pickaxe",
-            "item": "kubejs:crude_pickaxe",
-            "required_amount": 1
+            "item": "kubejs:crude_pickaxe"
         },
         {
             "type": "questlog:item_obtain",
             "name": "Craft a Crude Axe",
             "icon": "kubejs:crude_axe",
-            "item": "kubejs:crude_axe",
-            "required_amount": 1
+            "item": "kubejs:crude_axe"
         }
     ],
     "rewards": [
-    //    {
-    //        "type": "questlog:item",
-    //        "item": "twigs:pebble"
-    //    }
+        {
+            "type": "questlog:item",
+            "item": "minecraft:bread",
+            "count": 8
+        }
     ]
 }
