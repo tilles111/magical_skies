@@ -96,4 +96,11 @@ ServerEvents.tags('item', event => {
         'ecologics:surface_moss'
     ])
 
+    // Crude Tools
+    event.add('kubejs:tools/crude', [
+        'kubejs:crude_pickaxe',
+        'kubejs:crude_shovel',
+        'kubejs:crude_axe'
+    ])
+
 })

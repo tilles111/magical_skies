@@ -17,12 +17,19 @@
         "\n\n",
         "Now! Tout de suite! Affirm to me that you've \"Read\" all this, and we can be off to the races!",
         "\n\n----------------\n\n",
-        "Excellent work. I'm sure we will become well acquainted by the end of our time together. "
+        "Excellent work. I'm sure we will become well acquainted by the end of our time together. ",
+        "Enjoy this token of my appreciation. "
     ],
     "chapter": "questlog:main",
     "objectives": [
         {
             "type": "questlog:read"
+        }
+    ],
+    "rewards": [
+        {
+            "type": "questlog:item",
+            "item": "farmersdelight:sweet_berry_cookie"
         }
     ]
 }

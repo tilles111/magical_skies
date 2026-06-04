@@ -1,6 +1,6 @@
 {
-    "title": "The Grind Begins",
-    "icon": "hexalia:mortar_and_pestle",
+    "title": "Furthering of the Earthworks",
+    "icon": "minecraft:clay_ball",
     "sort_order": 1,
     "description": [
         "Test description!!!\n",
@@ -9,12 +9,6 @@
     ],
     "chapter": "questlog:apprentice",
     "objectives": [
-        {
-            "type": "questlog:item_obtain",
-            "name": "Gather Four Pebbles",
-            "icon": "hexalia:mortar_and_pestle",
-            "item": "hexalia:mortar_and_pestle"
-        },
         {
             "type": "questlog:item_obtain",
             "name": "Crush Cobblestone or Pebbles down into Lithic Powder",

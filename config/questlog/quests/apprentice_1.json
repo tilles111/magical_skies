@@ -1,39 +1,46 @@
 {
-    "title": "The Apprentice's Journey",
-    "icon": "twigs:pebble",
+    "title": "The Apprentice's Journey: Mundane Origins",
+    "icon": "hexalia:mortar_and_pestle",
     "sort_order": 0,
     "description": [
-        "Test description!!!\n",
-        "Test 2\n",
-        "poopy"
+        "Before getting into anything explicitly magical, you'll need to get situated. ",
+        "I'm sure you can figure out how to complete these basic tasks, but a refresher: ",
+        "One can acquire pebbles from Bedrock, and a Cutting Board and Shovel can help one sift for Flint. ",
+        "Secondarily, while crude, one can simply break a container to acquire its contents. "
     ],
     "chapter": "questlog:apprentice",
     "objectives": [
         {
             "type": "questlog:item_obtain",
-            "name": "Gather Four Pebbles",
+            "name": "Gather Pebbles",
             "icon": "twigs:pebble",
             "item": "twigs:pebble",
-            "required_amount": 4
+            "required_amount": 6
         },
         {
             "type": "questlog:item_obtain",
-            "name": "Craft a Crude Pickaxe",
+            "name": "Craft a Crude Tool",
             "icon": "kubejs:crude_pickaxe",
-            "item": "kubejs:crude_pickaxe"
+            "item": "#kubejs:tools/crude"
+        },
+        {
+            "type": "questlog:block_place",
+            "name": "Place a Mortar and Pestle",
+            "icon": "hexalia:mortar_and_pestle",
+            "block": "hexalia:mortar_and_pestle"
         },
         {
             "type": "questlog:item_obtain",
-            "name": "Craft a Crude Axe",
-            "icon": "kubejs:crude_axe",
-            "item": "kubejs:crude_axe"
+            "name": "Gather Flint",
+            "icon": "minecraft:flint",
+            "item": "minecraft:flint"
         }
     ],
     "rewards": [
         {
             "type": "questlog:item",
-            "item": "minecraft:bread",
-            "count": 8
+            "item": "farmersdelight:sweet_berry_cookie",
+            "count": 3
         }
     ]
 }
