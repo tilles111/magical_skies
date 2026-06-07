@@ -103,4 +103,12 @@ ServerEvents.tags('item', event => {
         'kubejs:crude_axe'
     ])
 
+    // Water Sources
+    event.add('kubejs:infinite_water_sources', [
+        'bloodmagic:watersigil',
+        'reliquary:emperor_chalice',
+        'ars_elemental:everfull_urn',
+        'botania:water_rod'
+    ])
+
 })

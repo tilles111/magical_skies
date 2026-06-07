@@ -114,17 +114,17 @@ ServerEvents.recipes(event => {
     // Clay Stuff
     event.remove({id: 'biomancy:crafting/clay_ball_from_stone_powder'})
     event.shapeless('minecraft:clay_ball', [
-        'caupona:water',
         'biomancy:stone_powder',
+        'caupona:water',
         'biomancy:stone_powder'
     ])
 
     event.shapeless(Item.of('minecraft:clay_ball', 4), [
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
         'minecraft:water_bucket',
-        'biomancy:stone_powder',
-        'biomancy:stone_powder',
-        'biomancy:stone_powder',
-        'biomancy:stone_powder',
         'biomancy:stone_powder',
         'biomancy:stone_powder',
         'biomancy:stone_powder',
@@ -138,4 +138,23 @@ ServerEvents.recipes(event => {
     ], {
         A: 'biomancy:stone_powder'
     })
+
+    event.shapeless('minecraft:clay_ball', [
+        'biomancy:stone_powder',
+        '#kubejs:infinite_water_sources',
+        'biomancy:stone_powder'
+    ]).keepIngredient(Ingredient.of('#kubejs:infinite_water_sources'))
+
+    event.shapeless(Item.of('minecraft:clay_ball', 4), [
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        '#kubejs:infinite_water_sources',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder'
+    ]).keepIngredient(Ingredient.of('#kubejs:infinite_water_sources'))
+
 })
