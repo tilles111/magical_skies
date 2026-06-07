@@ -695,6 +695,26 @@
 			x: 7.0d
 			y: 10.0d
 		}
+		{
+			id: "3E83F7553622398D"
+			tasks: [{
+				id: "30BC41954F696C4E"
+				item: "twigs:silt"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 13.0d
+		}
+		{
+			id: "3C90DB41A35EDD94"
+			tasks: [{
+				id: "7F667FA292C1DEB4"
+				item: "embers:raw_caminite_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 15.0d
+		}
 	]
 	title: "early stuff"
 }

@@ -5,21 +5,21 @@
     "description": [
         "Test description!!!\n",
         "Test 2\n",
-        "poopy"
+        "do more on this later i guess, maybe silt and such"
     ],
     "chapter": "questlog:apprentice",
     "objectives": [
         {
             "type": "questlog:item_obtain",
-            "name": "Crush Cobblestone or Pebbles down into Lithic Powder",
-            "icon": "biomancy:stone_powder",
-            "item": "biomancy:stone_powder"
+            "name": "Gather Clay",
+            "icon": "minecraft:clay_ball",
+            "item": "minecraft:clay_ball"
         },
         {
             "type": "questlog:item_obtain",
-            "name": "Turn Lithic Powder or Sand into Clay",
-            "icon": "minecraft:clay_ball",
-            "item": "minecraft:clay_ball"
+            "name": "Gather Sand",
+            "icon": "minecraft:sand",
+            "item": "minecraft:sand"
         }
     ],
     "requirements": [
