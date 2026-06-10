@@ -269,6 +269,33 @@ ServerEvents.recipes(event => {
                 }
             ]
         }).id(id)
+
+        if (amount <= 3) {
+            event.custom({
+                type: 'lychee:block_interacting',
+                item_in: Ingredient.of('quark:moss_paste').toJson(),
+                block_in: {
+                    blocks: [
+                        output
+                    ]
+                },
+                post: [
+                    {
+                        type: 'execute',
+                        command: `playsound ${sound} block @a ~ ~ ~ 0.5 1.5`,
+                        hide: true
+                    },
+                    {
+                        type: 'place',
+                        block: {
+                            blocks: [
+                                input
+                            ]
+                        }
+                    }
+                ]
+            }).id(`${id}_reverse`)
+        }
     }
 
     moss_scraping('minecraft:cobblestone', 'minecraft:mossy_cobblestone')
