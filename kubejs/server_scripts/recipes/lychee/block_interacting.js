@@ -334,7 +334,6 @@ ServerEvents.recipes(event => {
     moss_scraping('hearth_and_home:stone_brick_chimney', 'hearth_and_home:mossy_stone_brick_chimney')
     moss_scraping('eidolon:smooth_stone_bricks', 'eidolon:mossy_smooth_stone_bricks')
 
-    // TODO frog: fill in the blanks
     let petal_apothecary_types = [
         'default',
         'forest',
