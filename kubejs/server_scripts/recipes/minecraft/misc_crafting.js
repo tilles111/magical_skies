@@ -187,4 +187,12 @@ ServerEvents.recipes(event => {
         'biomancy:stone_powder'
     ])
 
+    // Fertilizers
+    event.remove({id: 'wizards_reborn:shapeless/flower_fertilizer'})
+    event.shapeless(Item.of('wizards_reborn:flower_fertilizer', 4), [
+        'minecraft:bone_meal', // maybe change to general fertilizer tag??
+        'wizards_reborn:petals',
+        'wizards_reborn:petals'
+    ])
+
 })
