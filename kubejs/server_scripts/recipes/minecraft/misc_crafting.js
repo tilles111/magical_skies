@@ -131,12 +131,21 @@ ServerEvents.recipes(event => {
         'biomancy:stone_powder'
     ])
 
-    event.shaped('minecraft:gravel', [
+    event.shaped('minecraft:sand', [
         'AAA',
         'AAA',
         'AAA'
     ], {
         A: 'biomancy:stone_powder'
+    })
+
+    event.shaped('minecraft:gravel', [
+        'ABA',
+        'BAB',
+        'ABA'
+    ], {
+        A: 'twigs:pebble',
+        B: 'biomancy:stone_powder'
     })
 
     event.shapeless('minecraft:clay_ball', [
