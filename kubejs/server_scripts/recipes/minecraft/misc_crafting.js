@@ -166,4 +166,25 @@ ServerEvents.recipes(event => {
         'biomancy:stone_powder'
     ]).keepIngredient(Ingredient.of('#kubejs:infinite_water_sources'))
 
+    // TODO frog: maybe move the cobble and dirt and such to a separate file
+    // Silt
+    event.remove({id: 'twigs:silt'})
+    event.shapeless('twigs:silt_ball', [
+        'biomancy:stone_powder',
+        'minecraft:clay_ball',
+        'biomancy:stone_powder'
+    ])
+
+    event.shapeless('twigs:silt', [
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'minecraft:clay',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder',
+        'biomancy:stone_powder'
+    ])
+
 })

@@ -17,6 +17,12 @@
         },
         {
             "type": "questlog:item_obtain",
+            "name": "Gather Silt",
+            "icon": "twigs:silt_ball",
+            "item": "twigs:silt_ball"
+        },
+        {
+            "type": "questlog:item_obtain",
             "name": "Gather Sand",
             "icon": "minecraft:sand",
             "item": "minecraft:sand"
