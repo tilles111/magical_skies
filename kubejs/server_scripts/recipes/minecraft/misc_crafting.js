@@ -131,6 +131,7 @@ ServerEvents.recipes(event => {
         'biomancy:stone_powder'
     ])
 
+    event.remove({id: 'biomancy:crafting/sand_from_stone_powder'})
     event.shaped('minecraft:sand', [
         'AAA',
         'AAA',
@@ -193,6 +194,12 @@ ServerEvents.recipes(event => {
         'minecraft:bone_meal', // maybe change to general fertilizer tag??
         'wizards_reborn:petals',
         'wizards_reborn:petals'
+    ])
+
+    // Caminite idea
+    event.remove({id: 'embers:caminite_blend'})
+    event.shapeless(Item.of('embers:caminite_blend', 3), [
+        'embers:raw_caminite_block'
     ])
 
 })
