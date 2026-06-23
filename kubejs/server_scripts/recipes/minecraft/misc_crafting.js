@@ -198,8 +198,30 @@ ServerEvents.recipes(event => {
 
     // Caminite idea
     event.remove({id: 'embers:caminite_blend'})
-    event.shapeless(Item.of('embers:caminite_blend', 3), [
+    event.remove({id: 'embers:raw_caminite_block'})
+    event.shapeless(Item.of('embers:caminite_blend', 9), [
         'embers:raw_caminite_block'
+    ])
+    event.shaped('embers:raw_caminite_block', [
+        'AAA',
+        'AAA',
+        'AAA'
+    ], {
+        A: 'embers:caminite_blend'
+    })
+
+    // Moss Multiplication?
+    event.shapeless(Item.of('ecologics:surface_moss', 10), [
+        'wizards_reborn:flower_fertilizer', // TODO frog: make this a tag and add reusable fertilizer recipe
+        'ecologics:surface_moss'
+    ])
+    event.shapeless(Item.of('quark:moss_paste', 4), [
+        'wizards_reborn:flower_fertilizer', // TODO frog: make this a tag and add reusable fertilizer recipe
+        'quark:moss_paste'
+    ])
+    event.shapeless(Item.of('minecraft:moss_block', 2), [
+        'wizards_reborn:flower_fertilizer', // TODO frog: make this a tag and add reusable fertilizer recipe
+        'minecraft:moss_block'
     ])
 
 })
